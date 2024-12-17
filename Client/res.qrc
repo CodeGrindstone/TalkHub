@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Icon/login/passwd.png</file>
+        <file>stylesheet.qss</file>
+        <file>Icon/login/user.png</file>
+        <file>Icon/global/talk.png</file>
+        <file>Icon/login/unvisible.png</file>
+        <file>Icon/login/unvisible_hover.png</file>
+        <file>Icon/login/visible.png</file>
+        <file>Icon/login/visible_hover.png</file>
+    </qresource>
+</RCC>
