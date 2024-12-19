@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/home/itxt/TalkHub/GateServer/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/main.cpp.o -c /home/itxt/TalkHub/GateServer/main.cpp",
+  "file": "/home/itxt/TalkHub/GateServer/main.cpp"
+},
+{
+  "directory": "/home/itxt/TalkHub/GateServer/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/ConfigMgr/ConfigMgr.cpp.o -c /home/itxt/TalkHub/GateServer/ConfigMgr/ConfigMgr.cpp",
+  "file": "/home/itxt/TalkHub/GateServer/ConfigMgr/ConfigMgr.cpp"
+},
+{
+  "directory": "/home/itxt/TalkHub/GateServer/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/CServer/CServer.cpp.o -c /home/itxt/TalkHub/GateServer/CServer/CServer.cpp",
+  "file": "/home/itxt/TalkHub/GateServer/CServer/CServer.cpp"
+},
+{
+  "directory": "/home/itxt/TalkHub/GateServer/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/HttpConn/HttpConn.cpp.o -c /home/itxt/TalkHub/GateServer/HttpConn/HttpConn.cpp",
+  "file": "/home/itxt/TalkHub/GateServer/HttpConn/HttpConn.cpp"
+},
+{
+  "directory": "/home/itxt/TalkHub/GateServer/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/AsioIOServicePool/AsioIOServicePool.cpp.o -c /home/itxt/TalkHub/GateServer/AsioIOServicePool/AsioIOServicePool.cpp",
+  "file": "/home/itxt/TalkHub/GateServer/AsioIOServicePool/AsioIOServicePool.cpp"
+},
+{
+  "directory": "/home/itxt/TalkHub/GateServer/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/MysqlMgr/MysqlDao.cpp.o -c /home/itxt/TalkHub/GateServer/MysqlMgr/MysqlDao.cpp",
+  "file": "/home/itxt/TalkHub/GateServer/MysqlMgr/MysqlDao.cpp"
+},
+{
+  "directory": "/home/itxt/TalkHub/GateServer/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/MysqlMgr/MysqlMgr.cpp.o -c /home/itxt/TalkHub/GateServer/MysqlMgr/MysqlMgr.cpp",
+  "file": "/home/itxt/TalkHub/GateServer/MysqlMgr/MysqlMgr.cpp"
+},
+{
+  "directory": "/home/itxt/TalkHub/GateServer/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/LogicSystem/LogicSystem.cpp.o -c /home/itxt/TalkHub/GateServer/LogicSystem/LogicSystem.cpp",
+  "file": "/home/itxt/TalkHub/GateServer/LogicSystem/LogicSystem.cpp"
+},
+{
+  "directory": "/home/itxt/TalkHub/GateServer/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/protoc/message.grpc.pb.cc.o -c /home/itxt/TalkHub/GateServer/protoc/message.grpc.pb.cc",
+  "file": "/home/itxt/TalkHub/GateServer/protoc/message.grpc.pb.cc"
+},
+{
+  "directory": "/home/itxt/TalkHub/GateServer/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/protoc/message.pb.cc.o -c /home/itxt/TalkHub/GateServer/protoc/message.pb.cc",
+  "file": "/home/itxt/TalkHub/GateServer/protoc/message.pb.cc"
+},
+{
+  "directory": "/home/itxt/TalkHub/GateServer/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/RedisMgr/RedisMgr.cpp.o -c /home/itxt/TalkHub/GateServer/RedisMgr/RedisMgr.cpp",
+  "file": "/home/itxt/TalkHub/GateServer/RedisMgr/RedisMgr.cpp"
+}
+]
