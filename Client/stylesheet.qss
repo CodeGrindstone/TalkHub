@@ -4,12 +4,11 @@ LoginWidget{
     border: 2px solid #005A9E;
 }
 
-#userLineEdit, #passwdLineEdit{
+LoginWidget QLineEdit{
     border: 2px solid #dcdcdc; /* 边框颜色与宽度 */
     border-radius: 10px;       /* 设置圆角半径 */
     padding: 5px;              /* 内边距，使文本离边框更远 */
     font-size: 16px;           /* 字体大小 */
-    background-color: white;   /* 背景颜色 */
 }
 
 #loginBtn{
@@ -37,6 +36,50 @@ LoginWidget{
     font-size: 13px;
 }
 
+
+#regisEmailEdit, #regisPasswdEdit, #regisVerifyEdit{
+    border: 2px solid #dcdcdc; /* 边框颜色与宽度 */
+    border-radius: 10px;       /* 设置圆角半径 */
+    padding: 5px;              /* 内边距，使文本离边框更远 */
+    font-size: 16px;           /* 字体大小 */
+    background-color: white;   /* 背景颜色 */
+}
+
+#registernowBtn{
+    background-color: #0078D7; /* 蓝色背景 */
+    color: white;             /* 白色字体 */
+    border-radius: 5px;       /* 圆角边框 */
+    padding: 5px 10px;        /* 内边距，使按钮更美观 */
+    font-size: 15px;          /* 字体大小 */
+    border: none;             /* 去除边框 */
+    font-weight: bold; /* 设置文字为加粗 */
+}
+
+#registernowBtn:hover {
+    background-color: #005A9E; /* 鼠标悬浮时的背景颜色 */
+    font-weight: bold; /* 设置文字为加粗 */
+    font-size: 16px;   /* 设置字体大小（可选） */
+}
+
+#registernowBtn:pressed {
+    background-color: #004080; /* 按下时的背景颜色 */
+}
+
+ResetWidget QLineEdit{
+    border: 2px solid #dcdcdc; /* 边框颜色与宽度 */
+    border-radius: 10px;       /* 设置圆角半径 */
+    padding: 5px;              /* 内边距，使文本离边框更远 */
+    font-size: 16px;           /* 字体大小 */
+    background-color: white;   /* 背景颜色 */
+}
+
+
+#loginfailedFrame{
+    background-color:#ffffff;
+
+    border:none;
+    border-radius:10px;
+}
 
 
 

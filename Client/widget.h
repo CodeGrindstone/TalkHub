@@ -3,6 +3,8 @@
 
 #include <QWidget>
 #include "loginwidget.h"
+#include "registerwidget.h"
+#include "resetwidget.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -22,9 +24,14 @@ private:
 private:
     Ui::Widget *ui;
     LoginWidget* m_login;
+    RegisterWidget* m_register;
+    ResetWidget* m_reset;
+
 private slots:
     void slot_switchRegister();
     void slot_switchForget();
+    void slot_RegisSwitchLogin();
+    void slot_ResetSwitchLogin();
 
 };
 #endif // WIDGET_H

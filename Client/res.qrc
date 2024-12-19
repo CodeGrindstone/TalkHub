@@ -8,5 +8,9 @@
         <file>Icon/login/unvisible_hover.png</file>
         <file>Icon/login/visible.png</file>
         <file>Icon/login/visible_hover.png</file>
+        <file>Icon/register/error.png</file>
+        <file>Icon/register/yes.png</file>
+        <file>Icon/register/forbidden.png</file>
+        <file>Icon/login/line.png</file>
     </qresource>
 </RCC>

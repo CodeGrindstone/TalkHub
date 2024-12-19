@@ -4,6 +4,7 @@
 #include <QLabel>
 #include <QMouseEvent>
 #include "const.h"
+
 class ClickableLabel:public QLabel
 {
     Q_OBJECT
