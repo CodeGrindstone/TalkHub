@@ -1,3 +1,0 @@
-/home/itxt/TalkHub/GateServer/build/CMakeFiles/GateServer.dir
-/home/itxt/TalkHub/GateServer/build/CMakeFiles/edit_cache.dir
-/home/itxt/TalkHub/GateServer/build/CMakeFiles/rebuild_cache.dir
