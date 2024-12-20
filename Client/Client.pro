@@ -9,8 +9,12 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    chatfrienditem.cpp \
+    chatwidget.cpp \
     clickablelabel.cpp \
     const.cpp \
+    elidedlabel.cpp \
+    friendlistwidget.cpp \
     getverifybutton.cpp \
     httpmgr.cpp \
     loginfaileddialog.cpp \
@@ -18,25 +22,35 @@ SOURCES += \
     main.cpp \
     registerwidget.cpp \
     resetwidget.cpp \
+    sideframe.cpp \
+    sideframeitem.cpp \
     widget.cpp
 
 HEADERS += \
     Singleton.h \
+    chatfrienditem.h \
+    chatwidget.h \
     clickablelabel.h \
     const.h \
+    elidedlabel.h \
+    friendlistwidget.h \
     getverifybutton.h \
     httpmgr.h \
     loginfaileddialog.h \
     loginwidget.h \
     registerwidget.h \
     resetwidget.h \
+    sideframe.h \
+    sideframeitem.h \
     widget.h
 
 FORMS += \
+    chatwidget.ui \
     loginfaileddialog.ui \
     loginwidget.ui \
     registerwidget.ui \
     resetwidget.ui \
+    sideframe.ui \
     widget.ui
 
 # Default rules for deployment.

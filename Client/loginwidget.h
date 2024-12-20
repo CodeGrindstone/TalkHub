@@ -30,6 +30,7 @@ private:
 signals:
     void sig_switchRegister();
     void sig_switchForget();
+    void sig_switchChat();
 private slots:
     void on_loginBtn_clicked();
 };

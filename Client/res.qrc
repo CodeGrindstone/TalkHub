@@ -12,5 +12,23 @@
         <file>Icon/register/yes.png</file>
         <file>Icon/register/forbidden.png</file>
         <file>Icon/login/line.png</file>
+        <file>Icon/chat/message.png</file>
+        <file>Icon/chat/friend.png</file>
+        <file>Icon/chat/message_clicked.png</file>
+        <file>Icon/chat/friend_clicked.png</file>
+        <file>Icon/chat/search.png</file>
+        <file>Icon/chat/system_message.png</file>
+        <file>Icon/test/test1.png</file>
+        <file>Icon/test/test2.png</file>
+        <file>Icon/test/test3.png</file>
+        <file>Icon/test/test4.png</file>
+        <file>Icon/test/test5.png</file>
+        <file>Icon/test/test6.png</file>
+        <file>Icon/chat/emoji.png</file>
+        <file>Icon/test/test7.png</file>
+        <file>Icon/test/test8.png</file>
+        <file>Icon/test/test9.png</file>
+        <file>Icon/test/test10.png</file>
+        <file>Icon/test/test11.png</file>
     </qresource>
 </RCC>

@@ -1,7 +1,7 @@
 #include "clickablelabel.h"
 #include <QMouseEvent>
 
-ClickableLabel::ClickableLabel(QWidget* parent):QLabel (parent),_curstate(ClickLbState::Normal)
+ClickableLabel::ClickableLabel(QWidget* parent) : QLabel(parent),_curstate(ClickLbState::Normal)
 {
 }
 // 处理鼠标点击事件

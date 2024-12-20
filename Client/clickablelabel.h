@@ -3,6 +3,7 @@
 
 #include <QLabel>
 #include <QMouseEvent>
+#include <QString>
 #include "const.h"
 
 class ClickableLabel:public QLabel

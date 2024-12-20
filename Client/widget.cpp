@@ -16,6 +16,7 @@ Widget::Widget(QWidget *parent)
     connect(m_register, &RegisterWidget::sig_switchLogin, this, &Widget::slot_RegisSwitchLogin);
     connect(m_login, &LoginWidget::sig_switchForget, this, &Widget::slot_switchForget);
     connect(m_reset, &ResetWidget::sig_switchLogin, this, &Widget::slot_ResetSwitchLogin);
+    connect(m_login, &LoginWidget::sig_switchChat, this, &Widget::slot_switchChatWidget);
 }
 
 void switchLogin()
@@ -61,4 +62,21 @@ void Widget::slot_ResetSwitchLogin()
     m_reset->hide();
     m_login->update();
     m_login->show();
+}
+
+void Widget::slot_switchChatWidget()
+{
+    m_login->hide();
+    delete m_login;
+    if(m_reset)
+    {
+        delete m_reset;
+    }
+    if(m_register)
+    {
+        delete m_register;
+    }
+
+    m_chat = new ChatWidget();
+    m_chat->show();
 }

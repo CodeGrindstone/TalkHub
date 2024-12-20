@@ -109,16 +109,20 @@ void LoginWidget::loginFailed()
 
 void LoginWidget::on_loginBtn_clicked()
 {
-    LoginFailedDialog* dialog = new LoginFailedDialog(this);
-    connect(dialog, &LoginFailedDialog::sig_relogin, [this, dialog]{
-        ui->passwdLineEdit->setText("");
-        delete dialog;
-    });
+    // if(false)
+    // {
+    //     LoginFailedDialog* dialog = new LoginFailedDialog(this);
+    //     connect(dialog, &LoginFailedDialog::sig_relogin, [this, dialog]{
+    //         ui->passwdLineEdit->setText("");
+    //         delete dialog;
+    //     });
 
-    connect(dialog, &LoginFailedDialog::sig_resetpasswd, [this, dialog]{
-        emit sig_switchForget();
-        delete dialog;
-    });
-    dialog->show();
+    //     connect(dialog, &LoginFailedDialog::sig_resetpasswd, [this, dialog]{
+    //         emit sig_switchForget();
+    //         delete dialog;
+    //     });
+    //     dialog->show();
+    // }
+    emit sig_switchChat();
 }
 

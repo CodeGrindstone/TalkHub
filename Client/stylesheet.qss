@@ -76,10 +76,88 @@ ResetWidget QLineEdit{
 
 #loginfailedFrame{
     background-color:#ffffff;
-
     border:none;
     border-radius:10px;
 }
 
 
 
+ChatWidget QFrame {
+    border: 1px solid #e0e0e0; /* 设置浅灰色边框，宽度为 1px */
+    border-radius: 0px;       /* 边框无圆角 */
+}
+
+SideFrame{
+    background-color:#292421
+}
+
+SideFrame QLabel{
+    border: none; /* 去掉边框 */
+}
+
+
+#searchLineEdit{
+    border: 2px solid #D3D3D3; /* 边框颜色与宽度 */
+    border-radius: 5px;       /* 设置圆角半径 */
+}
+#createGroupBtn{
+    border: 2px solid #D3D3D3; /* 边框颜色与宽度 */
+    border-radius: 5px;       /* 设置圆角半径 */
+    font-size: 16px;           /* 字体大小 */
+}
+
+#createGroupBtn:hover {
+    background-color: #BEBEBE; /* 鼠标悬浮时的背景颜色 */
+}
+
+#createGroupBtn:pressed {
+    background-color: #BEBEBE; /* 按下时的背景颜色 */
+}
+
+ChatFriendItem QLabel{
+    border: none; /* 去掉边框 */
+}
+
+
+FriendListWidget::item {
+    background-color: #FFFAFA; /* 普通状态背景色 */
+}
+
+FriendListWidget::item:hoever {
+    background-color: #FFFAFA; /* 普通状态背景色 */
+}
+FriendListWidget::item:selected {
+    background-color: 	#B5B5B5; /* 选中状态背景色 */
+}
+
+
+#sendBtn{
+    color: #0078D7;
+    background-color: #D3D3D3;
+    border-radius: 5px;       /* 设置圆角半径 */
+    padding: 5px;              /* 内边距，使文本离边框更远 */
+    font-size: 16px;           /* 字体大小 */
+}
+
+#sendBtn:hover {
+    background-color: #BEBEBE; /* 鼠标悬浮时的背景颜色 */
+}
+
+#sendBtn:pressed {
+    background-color: #BEBEBE; /* 按下时的背景颜色 */
+}
+
+#sendFrame{
+    background-color: white;
+}
+
+#MessageListWidget{
+    background-color: white;
+}
+#friendName{
+    background-color: #E8E8E8;
+}
+
+#searchWidget{
+    background-color: #E8E8E8;
+}
