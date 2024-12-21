@@ -1,7 +1,7 @@
 #pragma once
 
-#include "../ConfigMgr/ConfigMgr.h"
-#include "../const.h"
+#include "../../Config/ConfigMgr.h"
+#include "../../const.h"
 
 #include <mysql_driver.h>
 #include <mysql_connection.h>
@@ -167,6 +167,19 @@ public:
             1: SQL异常
     */
     bool ResetPasswdByEmail(const std::string& email, const std::string& pwd, int& errorCode);
+    /*
+        true:
+            isValid = 1 && errorCode = 0: 验证成功，邮箱和密码匹配
+            isValid = 0 && errorCode = 1: 数据库操作异常或其他未知错误
+            isValid = 0 && errorCode = 2: 邮箱未注册
+            isValid = 0 && errorCode = 3: 密码错误
+        false:
+            errorCode:
+                -1: 无法连接mysql
+                1 : SQL异常
+    */
+   bool VerifyUser(const std::string& email, const std::string& pwd, 
+                bool& isValid, int& errorCode, unsigned int& uid);
 private:
     std::unique_ptr<MySqlPool> pool_;
 };

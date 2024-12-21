@@ -5,9 +5,8 @@
 #include "LogicSystem.h"
 #include "../HttpConn/HttpConn.h"
 #include "../VerifyGrpcClient/VerifyGrpcClient.h"
-#include "../RedisMgr/RedisMgr.h"
 #include "../MysqlMgr/MysqlMgr.h"
-// #include "../StatusGrpcClient/StatusGrpcClient.h"
+#include "../StatusGrpcClient/StatusGrpcClient.h"
 
 LogicSystem::~LogicSystem()
 {
@@ -152,9 +151,9 @@ LogicSystem::LogicSystem()
         auto verifyCode = src_root["verifyCode"].asString();
 
         std::string redis_verifyCode;
-        bool b_get_varify = RedisMgr::GetInstance()->Get(CODEPREFIX + src_root["email"].asString(), redis_verifyCode);
-        if (!b_get_varify) {    // 验证码失效
-            root["code"] = ErrorCodes::ERR_VERIFICATION_EXPIRED;
+        if(!RedisMgr::GetInstance()->get(CODEPREFIX + src_root["email"].asString(), redis_verifyCode))
+        {
+            root["code"] = ErrorCodes::ERR_SERVER_INTERNAL;
             return;
         }
 
@@ -163,16 +162,11 @@ LogicSystem::LogicSystem()
             return;
         }
 
-        if(MysqlMgr::GetInstance()->RegisterUser(root, email, pwd)) // 注册账户
-        {
-            return;
-        }
-        else
+        if(!MysqlMgr::GetInstance()->RegisterUser(root, email, pwd)) // 注册账户
         {
             root["code"] = ErrorCodes::ERR_SERVER_INTERNAL;
             return;
         }
-        
     });
 
     RegPost("/api/v1/auth/reset_passwd", [](std::shared_ptr<HttpConn> connection){
@@ -200,28 +194,61 @@ LogicSystem::LogicSystem()
         auto verifyCode = src_root["verifyCode"].asString();
 
         std::string redis_verifyCode;
-        bool b_get_varify = RedisMgr::GetInstance()->Get(CODEPREFIX + src_root["email"].asString(), redis_verifyCode);
-        if (!b_get_varify) {    // 验证码失效
-            root["code"] = ErrorCodes::ERR_VERIFICATION_EXPIRED;
+        if(!RedisMgr::GetInstance()->get(CODEPREFIX + src_root["email"].asString(), redis_verifyCode))
+        {
+            root["code"] = ErrorCodes::ERR_SERVER_INTERNAL;
             return;
         }
 
-        if (verifyCode != redis_verifyCode) {   // 验证码错误
+        if (verifyCode != redis_verifyCode) {       // 验证码错误
             root["code"] = ErrorCodes::ERR_VERIFICATION_INVALID;
             return;
         }
 
-        if(MysqlMgr::GetInstance()->ResetPasswdByEmail(root, email, pwd)) // 注册账户
-        {
-            return;
-        }
-        else
+        if(!MysqlMgr::GetInstance()->ResetPasswdByEmail(root, email, pwd)) // 
         {
             root["code"] = ErrorCodes::ERR_SERVER_INTERNAL;
             return;
         }
     });
 
+    RegPost("/api/v1/auth/login",[](std::shared_ptr<HttpConn> connection){
+        auto body_str = boost::beast::buffers_to_string(connection->m_request.body().data());
+        connection->m_response.set(http::field::content_type, "text/json");
+
+        Json::Value root;
+        Json::Reader reader;
+        Json::Value src_root;
+
+        Defer defer([&connection, &root]{
+            std::string jsonstr = root.toStyledString();
+            beast::ostream(connection->m_response.body()) << jsonstr;
+        });
+
+        bool parse_success = reader.parse(body_str, src_root);
+        if(!parse_success)
+        {
+            root["code"] = ErrorCodes::ERR_INVALID_PARAMS;
+            return;
+        }
+
+        auto email = src_root["email"].asString();
+        auto pwd = src_root["passwd"].asString();
+
+        unsigned int uid;
+        if(!MysqlMgr::GetInstance()->VerifyUser(root, email, pwd, uid)) // 注册账户
+        {
+            root["code"] = ErrorCodes::ERR_SERVER_INTERNAL; // 服务器内部错误
+            return;
+        }
+
+        //查询StatusServer找到合适的连接
+        auto reply = StatusGrpcClient::GetInstance()->GetChatServer(root, uid);
+        if (reply.error()) {
+            root["code"] = ErrorCodes::ERR_DEPENDENCY_FAILURE;
+            return;
+        }
+    });
 
     // RegPost("/user_login", [](std::shared_ptr<HttpConn> connection) {
     //     auto body_str = boost::beast::buffers_to_string(connection->m_request.body().data());

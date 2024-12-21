@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/itxt/TalkHub/ChatServer/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/itxt/TalkHub/ChatServer/main.cpp",
+  "file": "/home/itxt/TalkHub/ChatServer/main.cpp"
+}
+]

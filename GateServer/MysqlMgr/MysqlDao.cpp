@@ -141,6 +141,49 @@ bool MysqlDao::ResetPasswdByEmail(std::string const &email,
     return false;
 }
 
+bool MysqlDao::VerifyUser(std::string const &email, std::string const &pwd,
+                        bool &isValid, int &errorCode, unsigned int& uid) 
+{
+    isValid = false;
+    errorCode = -1;
+    uid = 0;
+    // 从连接池获取数据库连接
+    auto conn = pool_->getConnection();
+    if (conn == nullptr) {
+        return false;
+    }
+
+    Defer defer([this, &conn] {
+        pool_->returnConnection(std::move(conn));
+    });
+    try
+    {
+        // 调用存储过程
+        std::unique_ptr<sql::PreparedStatement> stmt(conn->prepareStatement(
+            "CALL verify_user(?, ?, @out_is_valid, @out_error_code, @out_uid);"));
+        stmt->setString(1, email);
+        stmt->setString(2, pwd);
+        stmt->execute();
+
+        // 获取存储过程输出参数
+        std::unique_ptr<sql::Statement> stmtOut(conn->createStatement());
+        std::unique_ptr<sql::ResultSet> res(stmtOut->executeQuery(
+            "SELECT @out_is_valid AS is_valid, @out_error_code AS error_code, @out_uid AS uid"));
+        
+        if (res->next()) {
+            isValid = res->getInt("is_valid") == 1;
+            errorCode = res->getInt("error_code");
+            uid = res->getUInt("uid");
+            return true;
+        }
+    }
+    catch (const sql::SQLException& e) {
+        std::cerr << "SQL Error: " << e.what() << std::endl;
+    }
+    errorCode = 1;
+    return false;   
+}
+
 // void testRegisterUser(MysqlDao* userDao)
 // {
 //     int errorCode;

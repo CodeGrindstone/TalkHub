@@ -411,7 +411,7 @@ CMakeFiles/GateServer.dir/RedisMgr/RedisMgr.cpp.o: \
  /usr/include/boost/bind/bind_mf_cc.hpp \
  /usr/include/boost/bind/bind_mf2_cc.hpp \
  /usr/include/boost/bind/placeholders.hpp \
- /home/itxt/TalkHub/GateServer/RedisMgr/../ConfigMgr/ConfigMgr.h \
+ /home/itxt/TalkHub/GateServer/RedisMgr/../../Config/ConfigMgr.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \

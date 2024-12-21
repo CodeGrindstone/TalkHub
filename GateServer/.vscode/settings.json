@@ -76,7 +76,9 @@
         "coroutine": "cpp",
         "source_location": "cpp",
         "future": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "*.ipp": "cpp",
+        "*.inc": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }

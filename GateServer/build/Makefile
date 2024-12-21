@@ -177,30 +177,6 @@ CServer/CServer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/CServer/CServer.cpp.s
 .PHONY : CServer/CServer.cpp.s
 
-ConfigMgr/ConfigMgr.o: ConfigMgr/ConfigMgr.cpp.o
-.PHONY : ConfigMgr/ConfigMgr.o
-
-# target to build an object file
-ConfigMgr/ConfigMgr.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/ConfigMgr/ConfigMgr.cpp.o
-.PHONY : ConfigMgr/ConfigMgr.cpp.o
-
-ConfigMgr/ConfigMgr.i: ConfigMgr/ConfigMgr.cpp.i
-.PHONY : ConfigMgr/ConfigMgr.i
-
-# target to preprocess a source file
-ConfigMgr/ConfigMgr.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/ConfigMgr/ConfigMgr.cpp.i
-.PHONY : ConfigMgr/ConfigMgr.cpp.i
-
-ConfigMgr/ConfigMgr.s: ConfigMgr/ConfigMgr.cpp.s
-.PHONY : ConfigMgr/ConfigMgr.s
-
-# target to generate assembly for a file
-ConfigMgr/ConfigMgr.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/ConfigMgr/ConfigMgr.cpp.s
-.PHONY : ConfigMgr/ConfigMgr.cpp.s
-
 HttpConn/HttpConn.o: HttpConn/HttpConn.cpp.o
 .PHONY : HttpConn/HttpConn.o
 
@@ -297,29 +273,77 @@ MysqlMgr/MysqlMgr.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/MysqlMgr/MysqlMgr.cpp.s
 .PHONY : MysqlMgr/MysqlMgr.cpp.s
 
-RedisMgr/RedisMgr.o: RedisMgr/RedisMgr.cpp.o
-.PHONY : RedisMgr/RedisMgr.o
+StatusGrpcClient/StatusGrpcClient.o: StatusGrpcClient/StatusGrpcClient.cpp.o
+.PHONY : StatusGrpcClient/StatusGrpcClient.o
 
 # target to build an object file
-RedisMgr/RedisMgr.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/RedisMgr/RedisMgr.cpp.o
-.PHONY : RedisMgr/RedisMgr.cpp.o
+StatusGrpcClient/StatusGrpcClient.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o
+.PHONY : StatusGrpcClient/StatusGrpcClient.cpp.o
 
-RedisMgr/RedisMgr.i: RedisMgr/RedisMgr.cpp.i
-.PHONY : RedisMgr/RedisMgr.i
+StatusGrpcClient/StatusGrpcClient.i: StatusGrpcClient/StatusGrpcClient.cpp.i
+.PHONY : StatusGrpcClient/StatusGrpcClient.i
 
 # target to preprocess a source file
-RedisMgr/RedisMgr.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/RedisMgr/RedisMgr.cpp.i
-.PHONY : RedisMgr/RedisMgr.cpp.i
+StatusGrpcClient/StatusGrpcClient.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.i
+.PHONY : StatusGrpcClient/StatusGrpcClient.cpp.i
 
-RedisMgr/RedisMgr.s: RedisMgr/RedisMgr.cpp.s
-.PHONY : RedisMgr/RedisMgr.s
+StatusGrpcClient/StatusGrpcClient.s: StatusGrpcClient/StatusGrpcClient.cpp.s
+.PHONY : StatusGrpcClient/StatusGrpcClient.s
 
 # target to generate assembly for a file
-RedisMgr/RedisMgr.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/RedisMgr/RedisMgr.cpp.s
-.PHONY : RedisMgr/RedisMgr.cpp.s
+StatusGrpcClient/StatusGrpcClient.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.s
+.PHONY : StatusGrpcClient/StatusGrpcClient.cpp.s
+
+home/itxt/TalkHub/Config/ConfigMgr.o: home/itxt/TalkHub/Config/ConfigMgr.cpp.o
+.PHONY : home/itxt/TalkHub/Config/ConfigMgr.o
+
+# target to build an object file
+home/itxt/TalkHub/Config/ConfigMgr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o
+.PHONY : home/itxt/TalkHub/Config/ConfigMgr.cpp.o
+
+home/itxt/TalkHub/Config/ConfigMgr.i: home/itxt/TalkHub/Config/ConfigMgr.cpp.i
+.PHONY : home/itxt/TalkHub/Config/ConfigMgr.i
+
+# target to preprocess a source file
+home/itxt/TalkHub/Config/ConfigMgr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.i
+.PHONY : home/itxt/TalkHub/Config/ConfigMgr.cpp.i
+
+home/itxt/TalkHub/Config/ConfigMgr.s: home/itxt/TalkHub/Config/ConfigMgr.cpp.s
+.PHONY : home/itxt/TalkHub/Config/ConfigMgr.s
+
+# target to generate assembly for a file
+home/itxt/TalkHub/Config/ConfigMgr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.s
+.PHONY : home/itxt/TalkHub/Config/ConfigMgr.cpp.s
+
+home/itxt/TalkHub/RedisMgr/RedisMgr.o: home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o
+.PHONY : home/itxt/TalkHub/RedisMgr/RedisMgr.o
+
+# target to build an object file
+home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o
+.PHONY : home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o
+
+home/itxt/TalkHub/RedisMgr/RedisMgr.i: home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.i
+.PHONY : home/itxt/TalkHub/RedisMgr/RedisMgr.i
+
+# target to preprocess a source file
+home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.i
+.PHONY : home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.i
+
+home/itxt/TalkHub/RedisMgr/RedisMgr.s: home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.s
+.PHONY : home/itxt/TalkHub/RedisMgr/RedisMgr.s
+
+# target to generate assembly for a file
+home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.s
+.PHONY : home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -408,9 +432,6 @@ help:
 	@echo "... CServer/CServer.o"
 	@echo "... CServer/CServer.i"
 	@echo "... CServer/CServer.s"
-	@echo "... ConfigMgr/ConfigMgr.o"
-	@echo "... ConfigMgr/ConfigMgr.i"
-	@echo "... ConfigMgr/ConfigMgr.s"
 	@echo "... HttpConn/HttpConn.o"
 	@echo "... HttpConn/HttpConn.i"
 	@echo "... HttpConn/HttpConn.s"
@@ -423,9 +444,15 @@ help:
 	@echo "... MysqlMgr/MysqlMgr.o"
 	@echo "... MysqlMgr/MysqlMgr.i"
 	@echo "... MysqlMgr/MysqlMgr.s"
-	@echo "... RedisMgr/RedisMgr.o"
-	@echo "... RedisMgr/RedisMgr.i"
-	@echo "... RedisMgr/RedisMgr.s"
+	@echo "... StatusGrpcClient/StatusGrpcClient.o"
+	@echo "... StatusGrpcClient/StatusGrpcClient.i"
+	@echo "... StatusGrpcClient/StatusGrpcClient.s"
+	@echo "... home/itxt/TalkHub/Config/ConfigMgr.o"
+	@echo "... home/itxt/TalkHub/Config/ConfigMgr.i"
+	@echo "... home/itxt/TalkHub/Config/ConfigMgr.s"
+	@echo "... home/itxt/TalkHub/RedisMgr/RedisMgr.o"
+	@echo "... home/itxt/TalkHub/RedisMgr/RedisMgr.i"
+	@echo "... home/itxt/TalkHub/RedisMgr/RedisMgr.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -83,19 +83,19 @@ CMakeFiles/GateServer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GateServer.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/GateServer/main.cpp -o CMakeFiles/GateServer.dir/main.cpp.s
 
-CMakeFiles/GateServer.dir/ConfigMgr/ConfigMgr.cpp.o: CMakeFiles/GateServer.dir/flags.make
-CMakeFiles/GateServer.dir/ConfigMgr/ConfigMgr.cpp.o: ../ConfigMgr/ConfigMgr.cpp
-CMakeFiles/GateServer.dir/ConfigMgr/ConfigMgr.cpp.o: CMakeFiles/GateServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/GateServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GateServer.dir/ConfigMgr/ConfigMgr.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GateServer.dir/ConfigMgr/ConfigMgr.cpp.o -MF CMakeFiles/GateServer.dir/ConfigMgr/ConfigMgr.cpp.o.d -o CMakeFiles/GateServer.dir/ConfigMgr/ConfigMgr.cpp.o -c /home/itxt/TalkHub/GateServer/ConfigMgr/ConfigMgr.cpp
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o: CMakeFiles/GateServer.dir/flags.make
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o: /home/itxt/TalkHub/Config/ConfigMgr.cpp
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o: CMakeFiles/GateServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/GateServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GateServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GateServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o -MF CMakeFiles/GateServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o.d -o CMakeFiles/GateServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o -c /home/itxt/TalkHub/Config/ConfigMgr.cpp
 
-CMakeFiles/GateServer.dir/ConfigMgr/ConfigMgr.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GateServer.dir/ConfigMgr/ConfigMgr.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/GateServer/ConfigMgr/ConfigMgr.cpp > CMakeFiles/GateServer.dir/ConfigMgr/ConfigMgr.cpp.i
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GateServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/Config/ConfigMgr.cpp > CMakeFiles/GateServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.i
 
-CMakeFiles/GateServer.dir/ConfigMgr/ConfigMgr.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GateServer.dir/ConfigMgr/ConfigMgr.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/GateServer/ConfigMgr/ConfigMgr.cpp -o CMakeFiles/GateServer.dir/ConfigMgr/ConfigMgr.cpp.s
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GateServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/Config/ConfigMgr.cpp -o CMakeFiles/GateServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.s
 
 CMakeFiles/GateServer.dir/CServer/CServer.cpp.o: CMakeFiles/GateServer.dir/flags.make
 CMakeFiles/GateServer.dir/CServer/CServer.cpp.o: ../CServer/CServer.cpp
@@ -209,24 +209,38 @@ CMakeFiles/GateServer.dir/protoc/message.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GateServer.dir/protoc/message.pb.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/GateServer/protoc/message.pb.cc -o CMakeFiles/GateServer.dir/protoc/message.pb.cc.s
 
-CMakeFiles/GateServer.dir/RedisMgr/RedisMgr.cpp.o: CMakeFiles/GateServer.dir/flags.make
-CMakeFiles/GateServer.dir/RedisMgr/RedisMgr.cpp.o: ../RedisMgr/RedisMgr.cpp
-CMakeFiles/GateServer.dir/RedisMgr/RedisMgr.cpp.o: CMakeFiles/GateServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/GateServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/GateServer.dir/RedisMgr/RedisMgr.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GateServer.dir/RedisMgr/RedisMgr.cpp.o -MF CMakeFiles/GateServer.dir/RedisMgr/RedisMgr.cpp.o.d -o CMakeFiles/GateServer.dir/RedisMgr/RedisMgr.cpp.o -c /home/itxt/TalkHub/GateServer/RedisMgr/RedisMgr.cpp
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o: CMakeFiles/GateServer.dir/flags.make
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o: /home/itxt/TalkHub/RedisMgr/RedisMgr.cpp
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o: CMakeFiles/GateServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/GateServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o -MF CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o.d -o CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o -c /home/itxt/TalkHub/RedisMgr/RedisMgr.cpp
 
-CMakeFiles/GateServer.dir/RedisMgr/RedisMgr.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GateServer.dir/RedisMgr/RedisMgr.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/GateServer/RedisMgr/RedisMgr.cpp > CMakeFiles/GateServer.dir/RedisMgr/RedisMgr.cpp.i
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/RedisMgr/RedisMgr.cpp > CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.i
 
-CMakeFiles/GateServer.dir/RedisMgr/RedisMgr.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GateServer.dir/RedisMgr/RedisMgr.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/GateServer/RedisMgr/RedisMgr.cpp -o CMakeFiles/GateServer.dir/RedisMgr/RedisMgr.cpp.s
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/RedisMgr/RedisMgr.cpp -o CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.s
+
+CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o: CMakeFiles/GateServer.dir/flags.make
+CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o: ../StatusGrpcClient/StatusGrpcClient.cpp
+CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o: CMakeFiles/GateServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/GateServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o -MF CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o.d -o CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o -c /home/itxt/TalkHub/GateServer/StatusGrpcClient/StatusGrpcClient.cpp
+
+CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/GateServer/StatusGrpcClient/StatusGrpcClient.cpp > CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.i
+
+CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/GateServer/StatusGrpcClient/StatusGrpcClient.cpp -o CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.s
 
 # Object files for target GateServer
 GateServer_OBJECTS = \
 "CMakeFiles/GateServer.dir/main.cpp.o" \
-"CMakeFiles/GateServer.dir/ConfigMgr/ConfigMgr.cpp.o" \
+"CMakeFiles/GateServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o" \
 "CMakeFiles/GateServer.dir/CServer/CServer.cpp.o" \
 "CMakeFiles/GateServer.dir/HttpConn/HttpConn.cpp.o" \
 "CMakeFiles/GateServer.dir/AsioIOServicePool/AsioIOServicePool.cpp.o" \
@@ -235,13 +249,14 @@ GateServer_OBJECTS = \
 "CMakeFiles/GateServer.dir/LogicSystem/LogicSystem.cpp.o" \
 "CMakeFiles/GateServer.dir/protoc/message.grpc.pb.cc.o" \
 "CMakeFiles/GateServer.dir/protoc/message.pb.cc.o" \
-"CMakeFiles/GateServer.dir/RedisMgr/RedisMgr.cpp.o"
+"CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o" \
+"CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o"
 
 # External object files for target GateServer
 GateServer_EXTERNAL_OBJECTS =
 
 ../GateServer: CMakeFiles/GateServer.dir/main.cpp.o
-../GateServer: CMakeFiles/GateServer.dir/ConfigMgr/ConfigMgr.cpp.o
+../GateServer: CMakeFiles/GateServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o
 ../GateServer: CMakeFiles/GateServer.dir/CServer/CServer.cpp.o
 ../GateServer: CMakeFiles/GateServer.dir/HttpConn/HttpConn.cpp.o
 ../GateServer: CMakeFiles/GateServer.dir/AsioIOServicePool/AsioIOServicePool.cpp.o
@@ -250,11 +265,14 @@ GateServer_EXTERNAL_OBJECTS =
 ../GateServer: CMakeFiles/GateServer.dir/LogicSystem/LogicSystem.cpp.o
 ../GateServer: CMakeFiles/GateServer.dir/protoc/message.grpc.pb.cc.o
 ../GateServer: CMakeFiles/GateServer.dir/protoc/message.pb.cc.o
-../GateServer: CMakeFiles/GateServer.dir/RedisMgr/RedisMgr.cpp.o
+../GateServer: CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o
+../GateServer: CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o
 ../GateServer: CMakeFiles/GateServer.dir/build.make
 ../GateServer: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.74.0
 ../GateServer: /usr/local/lib/libgrpc++.a
 ../GateServer: /usr/local/lib/libprotobuf.a
+../GateServer: /usr/lib/x86_64-linux-gnu/libhiredis.so
+../GateServer: /usr/local/lib/libredis++.so
 ../GateServer: /usr/local/lib/libabsl_leak_check.a
 ../GateServer: /usr/local/lib/libabsl_die_if_null.a
 ../GateServer: /usr/local/lib/libabsl_log_initialize.a
@@ -349,7 +367,7 @@ GateServer_EXTERNAL_OBJECTS =
 ../GateServer: /usr/local/lib/libcrypto.a
 ../GateServer: /usr/local/lib/libaddress_sorting.a
 ../GateServer: CMakeFiles/GateServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/itxt/TalkHub/GateServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable ../GateServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/itxt/TalkHub/GateServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable ../GateServer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GateServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

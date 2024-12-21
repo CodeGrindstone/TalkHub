@@ -7,8 +7,8 @@
 
 
 #include "../Singleton.h"
-#include "../const.h"
-// #include "../RedisMgr/RedisMgr.h"
+#include "../../const.h"
+#include "../../RedisMgr/RedisMgr.h"
 
 #include <map>
 #include <functional>

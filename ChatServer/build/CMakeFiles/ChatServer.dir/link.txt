@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ChatServer.dir/main.cpp.o -o ChatServer 

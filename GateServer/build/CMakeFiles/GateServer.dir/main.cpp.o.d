@@ -1,6 +1,6 @@
 CMakeFiles/GateServer.dir/main.cpp.o: \
  /home/itxt/TalkHub/GateServer/main.cpp /usr/include/stdc-predef.h \
- /home/itxt/TalkHub/GateServer/const.h /usr/include/c++/11/functional \
+ /home/itxt/TalkHub/GateServer/../const.h /usr/include/c++/11/functional \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -1618,7 +1618,7 @@ CMakeFiles/GateServer.dir/main.cpp.o: \
  /home/itxt/TalkHub/GateServer/CServer/../AsioIOServicePool/AsioIOServicePool.h \
  /home/itxt/TalkHub/GateServer/CServer/../AsioIOServicePool/../Singleton.h \
  /usr/include/c++/11/iostream \
- /home/itxt/TalkHub/GateServer/ConfigMgr/ConfigMgr.h \
+ /home/itxt/TalkHub/GateServer/../Config/ConfigMgr.h \
  /usr/include/boost/filesystem.hpp \
  /usr/include/boost/filesystem/config.hpp \
  /usr/include/boost/filesystem/path.hpp \

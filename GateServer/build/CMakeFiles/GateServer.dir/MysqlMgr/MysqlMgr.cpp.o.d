@@ -2,7 +2,7 @@ CMakeFiles/GateServer.dir/MysqlMgr/MysqlMgr.cpp.o: \
  /home/itxt/TalkHub/GateServer/MysqlMgr/MysqlMgr.cpp \
  /usr/include/stdc-predef.h \
  /home/itxt/TalkHub/GateServer/MysqlMgr/MysqlMgr.h \
- /home/itxt/TalkHub/GateServer/MysqlMgr/../const.h \
+ /home/itxt/TalkHub/GateServer/MysqlMgr/../../const.h \
  /usr/include/c++/11/functional \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -195,7 +195,7 @@ CMakeFiles/GateServer.dir/MysqlMgr/MysqlMgr.cpp.o: \
  /usr/include/c++/11/stack /usr/include/c++/11/bits/stl_stack.h \
  /usr/local/include/json/writer.h /usr/local/include/json/value.h \
  /home/itxt/TalkHub/GateServer/MysqlMgr/MysqlDao.h \
- /home/itxt/TalkHub/GateServer/MysqlMgr/../ConfigMgr/ConfigMgr.h \
+ /home/itxt/TalkHub/GateServer/MysqlMgr/../../Config/ConfigMgr.h \
  /usr/include/c++/11/iostream /usr/include/boost/filesystem.hpp \
  /usr/include/boost/filesystem/config.hpp /usr/include/boost/config.hpp \
  /usr/include/boost/config/user.hpp \

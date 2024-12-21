@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/itxt/TalkHub/StatusServer/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/StatusServer.dir/StatusServer.cpp.o -c /home/itxt/TalkHub/StatusServer/StatusServer.cpp",
+  "file": "/home/itxt/TalkHub/StatusServer/StatusServer.cpp"
+},
+{
+  "directory": "/home/itxt/TalkHub/StatusServer/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/StatusServer.dir/StatusServiceImpl.cpp.o -c /home/itxt/TalkHub/StatusServer/StatusServiceImpl.cpp",
+  "file": "/home/itxt/TalkHub/StatusServer/StatusServiceImpl.cpp"
+},
+{
+  "directory": "/home/itxt/TalkHub/StatusServer/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/StatusServer.dir/protoc/message.pb.cc.o -c /home/itxt/TalkHub/StatusServer/protoc/message.pb.cc",
+  "file": "/home/itxt/TalkHub/StatusServer/protoc/message.pb.cc"
+},
+{
+  "directory": "/home/itxt/TalkHub/StatusServer/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.o -c /home/itxt/TalkHub/StatusServer/protoc/message.grpc.pb.cc",
+  "file": "/home/itxt/TalkHub/StatusServer/protoc/message.grpc.pb.cc"
+},
+{
+  "directory": "/home/itxt/TalkHub/StatusServer/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/StatusServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o -c /home/itxt/TalkHub/Config/ConfigMgr.cpp",
+  "file": "/home/itxt/TalkHub/Config/ConfigMgr.cpp"
+},
+{
+  "directory": "/home/itxt/TalkHub/StatusServer/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/StatusServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o -c /home/itxt/TalkHub/RedisMgr/RedisMgr.cpp",
+  "file": "/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp"
+}
+]

@@ -6,7 +6,7 @@
 #include <cstring>
 #include <boost/bind/bind.hpp>
 
-#include "../ConfigMgr/ConfigMgr.h"
+#include "../../Config/ConfigMgr.h"
 
 RedisMgr::~RedisMgr()
 {

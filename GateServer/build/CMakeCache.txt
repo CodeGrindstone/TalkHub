@@ -242,8 +242,20 @@ GateServer_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 GateServer_SOURCE_DIR:STATIC=/home/itxt/TalkHub/GateServer
 
+//Path to a file.
+HIREDIS_HEADER:PATH=/usr/include
+
+//Path to a library.
+HIREDIS_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libhiredis.so
+
 //The directory containing a CMake configuration file for Protobuf.
 Protobuf_DIR:PATH=/usr/local/lib/cmake/protobuf
+
+//Path to a file.
+REDIS_PLUS_PLUS_HEADER:PATH=/usr/local/include
+
+//Path to a library.
+REDIS_PLUS_PLUS_LIB:FILEPATH=/usr/local/lib/libredis++.so
 
 //The directory containing a CMake configuration file for absl.
 absl_DIR:PATH=/usr/local/lib/cmake/absl

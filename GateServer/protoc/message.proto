@@ -19,3 +19,19 @@ message GetVerifyRsp {
   string email = 2; // 与请求相关联的电子邮件地址，通常回传以确认
   string code = 3;  // 为该电子邮件地址生成的验证码
 }
+
+
+message GetChatServerReq {
+  int32 uid = 1;
+}
+ 
+ message GetChatServerRsp {
+  int32 error = 1;                                                                                                                                                      
+  string host = 2;
+  string port = 3;
+  string token = 4;
+}
+
+ service StatusService {
+  rpc GetChatServer (GetChatServerReq) returns (GetChatServerRsp) {}
+}      

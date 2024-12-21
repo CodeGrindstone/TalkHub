@@ -23,11 +23,23 @@ message(STATUS "Using gRPC ${gRPC_VERSION}")
 
 set(_GRPC_GRPCPP gRPC::grpc++)
 
+
+# <------------ add hiredis dependency --------------->
+find_path(HIREDIS_HEADER hiredis)
+
+find_library(HIREDIS_LIB hiredis)
+
+# <------------ add redis-plus-plus dependency -------------->
+# NOTE: this should be *sw* NOT *redis++*
+find_path(REDIS_PLUS_PLUS_HEADER sw)
+
+find_library(REDIS_PLUS_PLUS_LIB redis++)
+
 set(EXECUTABLE_OUTPUT_PATH ../)
 
 set(ConfigMgr
-ConfigMgr/ConfigMgr.h
-ConfigMgr/ConfigMgr.cpp
+../Config/ConfigMgr.h
+../Config/ConfigMgr.cpp
 )
 
 set(CServer
@@ -65,8 +77,12 @@ set(protoc
 )
 
 set(RedisMgr
-    RedisMgr/RedisMgr.h
-    RedisMgr/RedisMgr.cpp
+    ../RedisMgr/RedisMgr.h
+    ../RedisMgr/RedisMgr.cpp
+)
+
+set(StatusClient
+StatusGrpcClient/StatusGrpcClient.cpp
 )
 
 add_executable(GateServer 
@@ -79,7 +95,12 @@ add_executable(GateServer
     ${LogicSystem}
     ${protoc}
     ${RedisMgr}
+    ${StatusClient}
 )
+
+target_include_directories(GateServer PUBLIC ${HIREDIS_HEADER})
+target_include_directories(GateServer PUBLIC ${HIREDIS_HEADER})
+target_include_directories(GateServer PUBLIC ${REDIS_PLUS_PLUS_HEADER})
 
 target_link_libraries(GateServer 
     Boost::filesystem 
@@ -88,5 +109,6 @@ target_link_libraries(GateServer
     ${_PROTOBUF_LIBPROTOBUF}
     jsoncpp
     hiredis
+    ${HIREDIS_LIB}
+    ${REDIS_PLUS_PLUS_LIB}
 )
-

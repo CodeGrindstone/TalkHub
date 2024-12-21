@@ -3,10 +3,11 @@
 #include <grpcpp/grpcpp.h>
 #include "../protoc/message.grpc.pb.h"
 #include "../protoc/message.pb.h"
-#include "../const.h"
+#include "../../const.h"
 #include "../protoc/message.grpc.pb.h"
-#include "../ConfigMgr/ConfigMgr.h"
+#include "../../Config/ConfigMgr.h"
 #include "../Singleton.h"
+#include <grpcpp/grpcpp.h>
 #include <queue>
 #include <atomic>
 #include <condition_variable>

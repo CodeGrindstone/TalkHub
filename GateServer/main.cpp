@@ -1,6 +1,6 @@
-#include "const.h"
+#include "../const.h"
 #include "CServer/CServer.h"
-#include "ConfigMgr/ConfigMgr.h"
+#include "../Config/ConfigMgr.h"
 #include <iostream>
 int main()
 {

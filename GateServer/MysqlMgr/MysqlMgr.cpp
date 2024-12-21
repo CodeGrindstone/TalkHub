@@ -107,3 +107,52 @@ bool MysqlMgr::ResetPasswdByEmail(Json::Value &root, std::string const &email,
     }
     return true;
 }
+
+bool MysqlMgr::VerifyUser(Json::Value &root, std::string const &email,
+                          std::string const &pwd, unsigned int& uid) 
+{
+    try
+    {
+        bool isValid;
+        int errorCode;
+        _dao.VerifyUser(email, pwd, isValid, errorCode, uid);
+        if(isValid && errorCode == 0)
+        {
+            root["code"] = ErrorCodes::SUCCESS;
+            return true;
+        }
+
+        // 失败
+        switch (errorCode)
+        {
+            case -1:
+            {
+                root["code"] = ErrorCodes::ERR_TOO_MANY_CONNECTIONS;
+                break;
+            } 
+            case 1:
+            {
+                root["code"] = ErrorCodes::ERR_DATABASE;
+                break;
+            }
+            case 2:
+            {
+                root["code"] = ErrorCodes::ERR_USER_NOT_FOUND;
+                break;
+            }
+            case 3:
+            {
+                root["code"] = ErrorCodes::ERR_PASSWORD_MISMATCH; // 密码不匹配
+                break;
+            }
+            default:{
+                root["code"] = ErrorCodes::ERR_INVALID_PARAMS;
+                break;
+            }
+        }
+        
+    }catch(std::exception& e){
+        return false;
+    }
+    return true;
+}

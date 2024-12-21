@@ -2,7 +2,7 @@ CMakeFiles/GateServer.dir/MysqlMgr/MysqlDao.cpp.o: \
  /home/itxt/TalkHub/GateServer/MysqlMgr/MysqlDao.cpp \
  /usr/include/stdc-predef.h \
  /home/itxt/TalkHub/GateServer/MysqlMgr/MysqlDao.h \
- /home/itxt/TalkHub/GateServer/MysqlMgr/../ConfigMgr/ConfigMgr.h \
+ /home/itxt/TalkHub/GateServer/MysqlMgr/../../Config/ConfigMgr.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -817,7 +817,7 @@ CMakeFiles/GateServer.dir/MysqlMgr/MysqlDao.cpp.o: \
  /usr/include/boost/property_tree/detail/ptree_implementation.hpp \
  /usr/include/boost/property_tree/ini_parser.hpp \
  /usr/include/boost/property_tree/detail/file_parser_error.hpp \
- /home/itxt/TalkHub/GateServer/MysqlMgr/../const.h \
+ /home/itxt/TalkHub/GateServer/MysqlMgr/../../const.h \
  /usr/local/include/mysql_driver.h /usr/local/include/cppconn/driver.h \
  /usr/local/include/cppconn/connection.h \
  /usr/local/include/cppconn/build_config.h \

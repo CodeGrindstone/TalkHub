@@ -1,0 +1,3 @@
+/home/itxt/TalkHub/StatusServer/build/CMakeFiles/StatusServer.dir
+/home/itxt/TalkHub/StatusServer/build/CMakeFiles/edit_cache.dir
+/home/itxt/TalkHub/StatusServer/build/CMakeFiles/rebuild_cache.dir

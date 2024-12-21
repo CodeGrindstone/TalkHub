@@ -6,8 +6,8 @@
 },
 {
   "directory": "/home/itxt/TalkHub/GateServer/build",
-  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/ConfigMgr/ConfigMgr.cpp.o -c /home/itxt/TalkHub/GateServer/ConfigMgr/ConfigMgr.cpp",
-  "file": "/home/itxt/TalkHub/GateServer/ConfigMgr/ConfigMgr.cpp"
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o -c /home/itxt/TalkHub/Config/ConfigMgr.cpp",
+  "file": "/home/itxt/TalkHub/Config/ConfigMgr.cpp"
 },
 {
   "directory": "/home/itxt/TalkHub/GateServer/build",
@@ -51,7 +51,12 @@
 },
 {
   "directory": "/home/itxt/TalkHub/GateServer/build",
-  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/RedisMgr/RedisMgr.cpp.o -c /home/itxt/TalkHub/GateServer/RedisMgr/RedisMgr.cpp",
-  "file": "/home/itxt/TalkHub/GateServer/RedisMgr/RedisMgr.cpp"
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o -c /home/itxt/TalkHub/RedisMgr/RedisMgr.cpp",
+  "file": "/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp"
+},
+{
+  "directory": "/home/itxt/TalkHub/GateServer/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o -c /home/itxt/TalkHub/GateServer/StatusGrpcClient/StatusGrpcClient.cpp",
+  "file": "/home/itxt/TalkHub/GateServer/StatusGrpcClient/StatusGrpcClient.cpp"
 }
 ]
