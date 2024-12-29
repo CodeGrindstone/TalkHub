@@ -77,6 +77,6 @@ void Widget::slot_switchChatWidget()
         delete m_register;
     }
 
-    m_chat = new ChatWidget();
+    m_chat = new ChatDialog();
     m_chat->show();
 }

@@ -22,7 +22,6 @@
         <file>Icon/test/test2.png</file>
         <file>Icon/test/test3.png</file>
         <file>Icon/test/test4.png</file>
-        <file>Icon/test/test5.png</file>
         <file>Icon/test/test6.png</file>
         <file>Icon/chat/emoji.png</file>
         <file>Icon/test/test7.png</file>
@@ -30,5 +29,44 @@
         <file>Icon/test/test9.png</file>
         <file>Icon/test/test10.png</file>
         <file>Icon/test/test11.png</file>
+        <file>Icon/chat/add_friend.png</file>
+        <file>Icon/chat/create_group.png</file>
+        <file>Icon/chat/cancel_add_friend.png</file>
+        <file>Icon/chat/add_friend_hover.png</file>
+        <file>Icon/chat/add_friend_normal.png</file>
+        <file>Icon/chat/close_search.png</file>
+        <file>Icon/chat/close_transparent.png</file>
+        <file>Icon/chat/filedir.png</file>
+        <file>Icon/chat/filedir_hover.png</file>
+        <file>Icon/chat/filedir_press.png</file>
+        <file>Icon/chat/loading.gif</file>
+        <file>Icon/chat/smile.png</file>
+        <file>Icon/chat/smile_hover.png</file>
+        <file>Icon/chat/smile_press.png</file>
+        <file>Icon/chat/chat_icon.png</file>
+        <file>Icon/chat/chat_icon_hover.png</file>
+        <file>Icon/chat/chat_icon_press.png</file>
+        <file>Icon/chat/chat_icon_select_hover.png</file>
+        <file>Icon/chat/chat_icon_select_press.png</file>
+        <file>Icon/chat/contact_list.png</file>
+        <file>Icon/chat/contact_list_hover.png</file>
+        <file>Icon/chat/contact_list_press.png</file>
+        <file>Icon/chat/head_1.jpg</file>
+        <file>Icon/chat/addtip.png</file>
+        <file>Icon/chat/right_tip.png</file>
+        <file>Icon/test/test5.png</file>
+        <file>Icon/chat/red_point.png</file>
+        <file>Icon/chat/arowdown.png</file>
+        <file>Icon/chat/msg_chat_hover.png</file>
+        <file>Icon/chat/msg_chat_normal.png</file>
+        <file>Icon/chat/msg_chat_press.png</file>
+        <file>Icon/chat/video_chat_hover.png</file>
+        <file>Icon/chat/video_chat_normal.png</file>
+        <file>Icon/chat/video_chat_press.png</file>
+        <file>Icon/chat/voice_chat_hover.png</file>
+        <file>Icon/chat/voice_chat_normal.png</file>
+        <file>Icon/chat/voice_chat_press.png</file>
+        <file>Icon/chat/female.png</file>
+        <file>Icon/chat/male.png</file>
     </qresource>
 </RCC>

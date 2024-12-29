@@ -2,7 +2,7 @@
 #define CHATWIDGET_H
 
 #include <QWidget>
-#include "chatfrienditem.h"
+#include "const.h"
 
 namespace Ui {
 class ChatWidget;
@@ -18,12 +18,20 @@ public:
 protected:
     bool eventFilter(QObject *watched, QEvent *event);
 
+private slots:
+    void on_sendBtn_clicked();
+    void slot_switchChatPage();
+    void slot_switchContactPage();
+
+    void on_createGroupBtn_clicked();
+
 private:
     void initInterface();
     void testAddfriend();
     void initTool();
 private:
     Ui::ChatWidget *ui;
+    ChatMode mode_;
 };
 
 #endif // CHATWIDGET_H

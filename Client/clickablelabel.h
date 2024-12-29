@@ -3,6 +3,7 @@
 
 #include <QLabel>
 #include <QMouseEvent>
+#include <QEnterEvent>
 #include <QString>
 #include "const.h"
 
@@ -12,11 +13,16 @@ class ClickableLabel:public QLabel
 public:
     ClickableLabel(QWidget* parent);
     virtual void mousePressEvent(QMouseEvent *ev) override;
-    bool eventFilter(QObject *obj, QEvent *event) override;
+    virtual void mouseReleaseEvent(QMouseEvent *event) override;
+
+    virtual void enterEvent(QEnterEvent* event) override;
+    virtual void leaveEvent(QEvent* event) override;
     // virtual void leaveEvent(QEvent* event) override;
     void SetState(QString normal="", QString hover="", QString press="",
                   QString select="", QString select_hover="", QString select_press="");
     ClickLbState GetCurState();
+    bool SetCurState(ClickLbState state);
+    void ResetNormalState();
 protected:
 private:
     QString _normal;
@@ -27,7 +33,7 @@ private:
     QString _selected_press;
     ClickLbState _curstate;
 signals:
-    void clicked(void);
+    void clicked(QString, ClickLbState);
 };
 
 #endif // CLICKABLELABEL_H

@@ -5,7 +5,8 @@
 #include "loginwidget.h"
 #include "registerwidget.h"
 #include "resetwidget.h"
-#include "chatwidget.h"
+#include "chatdialog.h"
+#include "tcpmgr.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -27,7 +28,7 @@ private:
     LoginWidget* m_login;
     RegisterWidget* m_register;
     ResetWidget* m_reset;
-    ChatWidget* m_chat;
+    ChatDialog* m_chat;
 
 private slots:
     void slot_switchRegister();
