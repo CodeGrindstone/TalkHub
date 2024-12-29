@@ -83,21 +83,230 @@ CMakeFiles/ChatServer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/ChatServer/main.cpp -o CMakeFiles/ChatServer.dir/main.cpp.s
 
+CMakeFiles/ChatServer.dir/ChatServer/ChatServer.cpp.o: CMakeFiles/ChatServer.dir/flags.make
+CMakeFiles/ChatServer.dir/ChatServer/ChatServer.cpp.o: ../ChatServer/ChatServer.cpp
+CMakeFiles/ChatServer.dir/ChatServer/ChatServer.cpp.o: CMakeFiles/ChatServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ChatServer.dir/ChatServer/ChatServer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatServer.dir/ChatServer/ChatServer.cpp.o -MF CMakeFiles/ChatServer.dir/ChatServer/ChatServer.cpp.o.d -o CMakeFiles/ChatServer.dir/ChatServer/ChatServer.cpp.o -c /home/itxt/TalkHub/ChatServer/ChatServer/ChatServer.cpp
+
+CMakeFiles/ChatServer.dir/ChatServer/ChatServer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/ChatServer/ChatServer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/ChatServer/ChatServer/ChatServer.cpp > CMakeFiles/ChatServer.dir/ChatServer/ChatServer.cpp.i
+
+CMakeFiles/ChatServer.dir/ChatServer/ChatServer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/ChatServer/ChatServer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/ChatServer/ChatServer/ChatServer.cpp -o CMakeFiles/ChatServer.dir/ChatServer/ChatServer.cpp.s
+
+CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o: CMakeFiles/ChatServer.dir/flags.make
+CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o: /home/itxt/TalkHub/protoc/message.pb.cc
+CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o: CMakeFiles/ChatServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o -MF CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o.d -o CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o -c /home/itxt/TalkHub/protoc/message.pb.cc
+
+CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/protoc/message.pb.cc > CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.i
+
+CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/protoc/message.pb.cc -o CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.s
+
+CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o: CMakeFiles/ChatServer.dir/flags.make
+CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o: /home/itxt/TalkHub/protoc/message.grpc.pb.cc
+CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o: CMakeFiles/ChatServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o -MF CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o.d -o CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o -c /home/itxt/TalkHub/protoc/message.grpc.pb.cc
+
+CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/protoc/message.grpc.pb.cc > CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.i
+
+CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/protoc/message.grpc.pb.cc -o CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.s
+
+CMakeFiles/ChatServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o: CMakeFiles/ChatServer.dir/flags.make
+CMakeFiles/ChatServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o: /home/itxt/TalkHub/Config/ConfigMgr.cpp
+CMakeFiles/ChatServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o: CMakeFiles/ChatServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ChatServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o -MF CMakeFiles/ChatServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o.d -o CMakeFiles/ChatServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o -c /home/itxt/TalkHub/Config/ConfigMgr.cpp
+
+CMakeFiles/ChatServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/Config/ConfigMgr.cpp > CMakeFiles/ChatServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.i
+
+CMakeFiles/ChatServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/Config/ConfigMgr.cpp -o CMakeFiles/ChatServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.s
+
+CMakeFiles/ChatServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o: CMakeFiles/ChatServer.dir/flags.make
+CMakeFiles/ChatServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o: /home/itxt/TalkHub/RedisMgr/RedisMgr.cpp
+CMakeFiles/ChatServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o: CMakeFiles/ChatServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ChatServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o -MF CMakeFiles/ChatServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o.d -o CMakeFiles/ChatServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o -c /home/itxt/TalkHub/RedisMgr/RedisMgr.cpp
+
+CMakeFiles/ChatServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/RedisMgr/RedisMgr.cpp > CMakeFiles/ChatServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.i
+
+CMakeFiles/ChatServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/RedisMgr/RedisMgr.cpp -o CMakeFiles/ChatServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.s
+
+CMakeFiles/ChatServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o: CMakeFiles/ChatServer.dir/flags.make
+CMakeFiles/ChatServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o: ../StatusGrpcClient/StatusGrpcClient.cpp
+CMakeFiles/ChatServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o: CMakeFiles/ChatServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ChatServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o -MF CMakeFiles/ChatServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o.d -o CMakeFiles/ChatServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o -c /home/itxt/TalkHub/ChatServer/StatusGrpcClient/StatusGrpcClient.cpp
+
+CMakeFiles/ChatServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/ChatServer/StatusGrpcClient/StatusGrpcClient.cpp > CMakeFiles/ChatServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.i
+
+CMakeFiles/ChatServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/ChatServer/StatusGrpcClient/StatusGrpcClient.cpp -o CMakeFiles/ChatServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.s
+
+CMakeFiles/ChatServer.dir/MessageHandler/IMessageHandler.cpp.o: CMakeFiles/ChatServer.dir/flags.make
+CMakeFiles/ChatServer.dir/MessageHandler/IMessageHandler.cpp.o: ../MessageHandler/IMessageHandler.cpp
+CMakeFiles/ChatServer.dir/MessageHandler/IMessageHandler.cpp.o: CMakeFiles/ChatServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ChatServer.dir/MessageHandler/IMessageHandler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChatServer.dir/MessageHandler/IMessageHandler.cpp.o -MF CMakeFiles/ChatServer.dir/MessageHandler/IMessageHandler.cpp.o.d -o CMakeFiles/ChatServer.dir/MessageHandler/IMessageHandler.cpp.o -c /home/itxt/TalkHub/ChatServer/MessageHandler/IMessageHandler.cpp
+
+CMakeFiles/ChatServer.dir/MessageHandler/IMessageHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/MessageHandler/IMessageHandler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/ChatServer/MessageHandler/IMessageHandler.cpp > CMakeFiles/ChatServer.dir/MessageHandler/IMessageHandler.cpp.i
+
+CMakeFiles/ChatServer.dir/MessageHandler/IMessageHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/MessageHandler/IMessageHandler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/ChatServer/MessageHandler/IMessageHandler.cpp -o CMakeFiles/ChatServer.dir/MessageHandler/IMessageHandler.cpp.s
+
 # Object files for target ChatServer
 ChatServer_OBJECTS = \
-"CMakeFiles/ChatServer.dir/main.cpp.o"
+"CMakeFiles/ChatServer.dir/main.cpp.o" \
+"CMakeFiles/ChatServer.dir/ChatServer/ChatServer.cpp.o" \
+"CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o" \
+"CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o" \
+"CMakeFiles/ChatServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o" \
+"CMakeFiles/ChatServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o" \
+"CMakeFiles/ChatServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o" \
+"CMakeFiles/ChatServer.dir/MessageHandler/IMessageHandler.cpp.o"
 
 # External object files for target ChatServer
 ChatServer_EXTERNAL_OBJECTS =
 
-ChatServer: CMakeFiles/ChatServer.dir/main.cpp.o
-ChatServer: CMakeFiles/ChatServer.dir/build.make
-ChatServer: CMakeFiles/ChatServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/itxt/TalkHub/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ChatServer"
+../ChatServer: CMakeFiles/ChatServer.dir/main.cpp.o
+../ChatServer: CMakeFiles/ChatServer.dir/ChatServer/ChatServer.cpp.o
+../ChatServer: CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o
+../ChatServer: CMakeFiles/ChatServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o
+../ChatServer: CMakeFiles/ChatServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o
+../ChatServer: CMakeFiles/ChatServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o
+../ChatServer: CMakeFiles/ChatServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o
+../ChatServer: CMakeFiles/ChatServer.dir/MessageHandler/IMessageHandler.cpp.o
+../ChatServer: CMakeFiles/ChatServer.dir/build.make
+../ChatServer: /usr/local/lib/libgrpc++.a
+../ChatServer: /usr/local/lib/libprotobuf.a
+../ChatServer: /usr/lib/x86_64-linux-gnu/libhiredis.so
+../ChatServer: /usr/local/lib/libredis++.so
+../ChatServer: /usr/local/lib/libabsl_leak_check.a
+../ChatServer: /usr/local/lib/libabsl_die_if_null.a
+../ChatServer: /usr/local/lib/libabsl_log_initialize.a
+../ChatServer: /usr/local/lib/libutf8_validity.a
+../ChatServer: /usr/local/lib/libgrpc.a
+../ChatServer: /usr/local/lib/libabsl_statusor.a
+../ChatServer: /usr/local/lib/libupb_json_lib.a
+../ChatServer: /usr/local/lib/libupb_textformat_lib.a
+../ChatServer: /usr/local/lib/libupb_mini_descriptor_lib.a
+../ChatServer: /usr/local/lib/libupb_wire_lib.a
+../ChatServer: /usr/local/lib/libutf8_range_lib.a
+../ChatServer: /usr/local/lib/libupb_message_lib.a
+../ChatServer: /usr/local/lib/libupb_base_lib.a
+../ChatServer: /usr/local/lib/libupb_mem_lib.a
+../ChatServer: /usr/local/lib/libre2.a
+../ChatServer: /usr/local/lib/libz.a
+../ChatServer: /usr/local/lib/libcares.a
+../ChatServer: /usr/local/lib/libgpr.a
+../ChatServer: /usr/local/lib/libabsl_flags_internal.a
+../ChatServer: /usr/local/lib/libabsl_flags_reflection.a
+../ChatServer: /usr/local/lib/libabsl_raw_hash_set.a
+../ChatServer: /usr/local/lib/libabsl_hashtablez_sampler.a
+../ChatServer: /usr/local/lib/libabsl_flags_config.a
+../ChatServer: /usr/local/lib/libabsl_flags_program_name.a
+../ChatServer: /usr/local/lib/libabsl_flags_private_handle_accessor.a
+../ChatServer: /usr/local/lib/libabsl_flags_commandlineflag.a
+../ChatServer: /usr/local/lib/libabsl_flags_commandlineflag_internal.a
+../ChatServer: /usr/local/lib/libabsl_random_distributions.a
+../ChatServer: /usr/local/lib/libabsl_random_seed_sequences.a
+../ChatServer: /usr/local/lib/libabsl_random_internal_pool_urbg.a
+../ChatServer: /usr/local/lib/libabsl_random_internal_randen.a
+../ChatServer: /usr/local/lib/libabsl_random_internal_randen_hwaes.a
+../ChatServer: /usr/local/lib/libabsl_random_internal_randen_hwaes_impl.a
+../ChatServer: /usr/local/lib/libabsl_random_internal_randen_slow.a
+../ChatServer: /usr/local/lib/libabsl_random_internal_platform.a
+../ChatServer: /usr/local/lib/libabsl_random_internal_seed_material.a
+../ChatServer: /usr/local/lib/libabsl_random_seed_gen_exception.a
+../ChatServer: /usr/local/lib/libabsl_status.a
+../ChatServer: /usr/local/lib/libabsl_cord.a
+../ChatServer: /usr/local/lib/libabsl_cordz_info.a
+../ChatServer: /usr/local/lib/libabsl_cord_internal.a
+../ChatServer: /usr/local/lib/libabsl_cordz_functions.a
+../ChatServer: /usr/local/lib/libabsl_exponential_biased.a
+../ChatServer: /usr/local/lib/libabsl_cordz_handle.a
+../ChatServer: /usr/local/lib/libabsl_crc_cord_state.a
+../ChatServer: /usr/local/lib/libabsl_crc32c.a
+../ChatServer: /usr/local/lib/libabsl_crc_internal.a
+../ChatServer: /usr/local/lib/libabsl_crc_cpu_detect.a
+../ChatServer: /usr/local/lib/libabsl_flags_marshalling.a
+../ChatServer: /usr/local/lib/libabsl_log_internal_check_op.a
+../ChatServer: /usr/local/lib/libabsl_log_internal_conditions.a
+../ChatServer: /usr/local/lib/libabsl_log_internal_message.a
+../ChatServer: /usr/local/lib/libabsl_strerror.a
+../ChatServer: /usr/local/lib/libabsl_log_internal_nullguard.a
+../ChatServer: /usr/local/lib/libabsl_examine_stack.a
+../ChatServer: /usr/local/lib/libabsl_log_internal_format.a
+../ChatServer: /usr/local/lib/libabsl_str_format_internal.a
+../ChatServer: /usr/local/lib/libabsl_log_internal_proto.a
+../ChatServer: /usr/local/lib/libabsl_log_internal_log_sink_set.a
+../ChatServer: /usr/local/lib/libabsl_log_globals.a
+../ChatServer: /usr/local/lib/libabsl_hash.a
+../ChatServer: /usr/local/lib/libabsl_bad_variant_access.a
+../ChatServer: /usr/local/lib/libabsl_city.a
+../ChatServer: /usr/local/lib/libabsl_low_level_hash.a
+../ChatServer: /usr/local/lib/libabsl_vlog_config_internal.a
+../ChatServer: /usr/local/lib/libabsl_bad_optional_access.a
+../ChatServer: /usr/local/lib/libabsl_log_internal_fnmatch.a
+../ChatServer: /usr/local/lib/libabsl_synchronization.a
+../ChatServer: /usr/local/lib/libabsl_stacktrace.a
+../ChatServer: /usr/local/lib/libabsl_symbolize.a
+../ChatServer: /usr/local/lib/libabsl_debugging_internal.a
+../ChatServer: /usr/local/lib/libabsl_demangle_internal.a
+../ChatServer: /usr/local/lib/libabsl_graphcycles_internal.a
+../ChatServer: /usr/local/lib/libabsl_kernel_timeout_internal.a
+../ChatServer: /usr/local/lib/libabsl_malloc_internal.a
+../ChatServer: /usr/local/lib/libabsl_log_internal_globals.a
+../ChatServer: /usr/local/lib/libabsl_log_sink.a
+../ChatServer: /usr/local/lib/libabsl_log_entry.a
+../ChatServer: /usr/local/lib/libabsl_time.a
+../ChatServer: /usr/local/lib/libabsl_civil_time.a
+../ChatServer: /usr/local/lib/libabsl_time_zone.a
+../ChatServer: /usr/local/lib/libabsl_strings.a
+../ChatServer: /usr/local/lib/libabsl_int128.a
+../ChatServer: /usr/local/lib/libabsl_strings_internal.a
+../ChatServer: /usr/local/lib/libabsl_string_view.a
+../ChatServer: /usr/local/lib/libabsl_base.a
+../ChatServer: /usr/local/lib/libabsl_spinlock_wait.a
+../ChatServer: /usr/local/lib/libabsl_throw_delegate.a
+../ChatServer: /usr/local/lib/libabsl_raw_logging_internal.a
+../ChatServer: /usr/local/lib/libabsl_log_severity.a
+../ChatServer: /usr/local/lib/libssl.a
+../ChatServer: /usr/local/lib/libcrypto.a
+../ChatServer: /usr/local/lib/libaddress_sorting.a
+../ChatServer: CMakeFiles/ChatServer.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/itxt/TalkHub/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../ChatServer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ChatServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/ChatServer.dir/build: ChatServer
+CMakeFiles/ChatServer.dir/build: ../ChatServer
 .PHONY : CMakeFiles/ChatServer.dir/build
 
 CMakeFiles/ChatServer.dir/clean:

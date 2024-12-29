@@ -7,7 +7,8 @@
 
 
 #include <grpcpp/grpcpp.h>
-#include "protoc/message.grpc.pb.h"
+#include <unordered_map>
+#include "../protoc/message.grpc.pb.h"
 #include "../const.h"
 #include "../RedisMgr/RedisMgr.h"
 
@@ -18,6 +19,8 @@ using grpc::Status;
 using message::GetChatServerReq;
 using message::GetChatServerRsp;
 using message::StatusService;
+using message::LoginReq;
+using message::LoginRsp;
 
 struct ChatServer 
 {
@@ -32,11 +35,12 @@ public:
     Status GetChatServer(ServerContext* context, const GetChatServerReq* request,
                          GetChatServerRsp* reply) override;
 
-    // Status Login(ServerContext* context, const LoginReq* request,
-    //                      LoginRsp* reply) override;
+    Status Login(ServerContext* context, const LoginReq* request, LoginRsp* reply) override;
+
+
 private:
-    std::vector<ChatServer> _servers;
-    int _server_index;
+    std::string getNextChatServer();
+    std::unordered_map<std::string, ChatServer> servers_;
     std::mutex m_mutex;
 };
 

@@ -225,78 +225,6 @@ LogicSystem/LogicSystem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/LogicSystem/LogicSystem.cpp.s
 .PHONY : LogicSystem/LogicSystem.cpp.s
 
-MysqlMgr/MysqlDao.o: MysqlMgr/MysqlDao.cpp.o
-.PHONY : MysqlMgr/MysqlDao.o
-
-# target to build an object file
-MysqlMgr/MysqlDao.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/MysqlMgr/MysqlDao.cpp.o
-.PHONY : MysqlMgr/MysqlDao.cpp.o
-
-MysqlMgr/MysqlDao.i: MysqlMgr/MysqlDao.cpp.i
-.PHONY : MysqlMgr/MysqlDao.i
-
-# target to preprocess a source file
-MysqlMgr/MysqlDao.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/MysqlMgr/MysqlDao.cpp.i
-.PHONY : MysqlMgr/MysqlDao.cpp.i
-
-MysqlMgr/MysqlDao.s: MysqlMgr/MysqlDao.cpp.s
-.PHONY : MysqlMgr/MysqlDao.s
-
-# target to generate assembly for a file
-MysqlMgr/MysqlDao.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/MysqlMgr/MysqlDao.cpp.s
-.PHONY : MysqlMgr/MysqlDao.cpp.s
-
-MysqlMgr/MysqlMgr.o: MysqlMgr/MysqlMgr.cpp.o
-.PHONY : MysqlMgr/MysqlMgr.o
-
-# target to build an object file
-MysqlMgr/MysqlMgr.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/MysqlMgr/MysqlMgr.cpp.o
-.PHONY : MysqlMgr/MysqlMgr.cpp.o
-
-MysqlMgr/MysqlMgr.i: MysqlMgr/MysqlMgr.cpp.i
-.PHONY : MysqlMgr/MysqlMgr.i
-
-# target to preprocess a source file
-MysqlMgr/MysqlMgr.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/MysqlMgr/MysqlMgr.cpp.i
-.PHONY : MysqlMgr/MysqlMgr.cpp.i
-
-MysqlMgr/MysqlMgr.s: MysqlMgr/MysqlMgr.cpp.s
-.PHONY : MysqlMgr/MysqlMgr.s
-
-# target to generate assembly for a file
-MysqlMgr/MysqlMgr.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/MysqlMgr/MysqlMgr.cpp.s
-.PHONY : MysqlMgr/MysqlMgr.cpp.s
-
-StatusGrpcClient/StatusGrpcClient.o: StatusGrpcClient/StatusGrpcClient.cpp.o
-.PHONY : StatusGrpcClient/StatusGrpcClient.o
-
-# target to build an object file
-StatusGrpcClient/StatusGrpcClient.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o
-.PHONY : StatusGrpcClient/StatusGrpcClient.cpp.o
-
-StatusGrpcClient/StatusGrpcClient.i: StatusGrpcClient/StatusGrpcClient.cpp.i
-.PHONY : StatusGrpcClient/StatusGrpcClient.i
-
-# target to preprocess a source file
-StatusGrpcClient/StatusGrpcClient.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.i
-.PHONY : StatusGrpcClient/StatusGrpcClient.cpp.i
-
-StatusGrpcClient/StatusGrpcClient.s: StatusGrpcClient/StatusGrpcClient.cpp.s
-.PHONY : StatusGrpcClient/StatusGrpcClient.s
-
-# target to generate assembly for a file
-StatusGrpcClient/StatusGrpcClient.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.s
-.PHONY : StatusGrpcClient/StatusGrpcClient.cpp.s
-
 home/itxt/TalkHub/Config/ConfigMgr.o: home/itxt/TalkHub/Config/ConfigMgr.cpp.o
 .PHONY : home/itxt/TalkHub/Config/ConfigMgr.o
 
@@ -320,6 +248,54 @@ home/itxt/TalkHub/Config/ConfigMgr.s: home/itxt/TalkHub/Config/ConfigMgr.cpp.s
 home/itxt/TalkHub/Config/ConfigMgr.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.s
 .PHONY : home/itxt/TalkHub/Config/ConfigMgr.cpp.s
+
+home/itxt/TalkHub/MysqlMgr/MysqlDao.o: home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.o
+.PHONY : home/itxt/TalkHub/MysqlMgr/MysqlDao.o
+
+# target to build an object file
+home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.o
+.PHONY : home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.o
+
+home/itxt/TalkHub/MysqlMgr/MysqlDao.i: home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.i
+.PHONY : home/itxt/TalkHub/MysqlMgr/MysqlDao.i
+
+# target to preprocess a source file
+home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.i
+.PHONY : home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.i
+
+home/itxt/TalkHub/MysqlMgr/MysqlDao.s: home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.s
+.PHONY : home/itxt/TalkHub/MysqlMgr/MysqlDao.s
+
+# target to generate assembly for a file
+home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.s
+.PHONY : home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.s
+
+home/itxt/TalkHub/MysqlMgr/MysqlMgr.o: home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.o
+.PHONY : home/itxt/TalkHub/MysqlMgr/MysqlMgr.o
+
+# target to build an object file
+home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.o
+.PHONY : home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.o
+
+home/itxt/TalkHub/MysqlMgr/MysqlMgr.i: home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.i
+.PHONY : home/itxt/TalkHub/MysqlMgr/MysqlMgr.i
+
+# target to preprocess a source file
+home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.i
+.PHONY : home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.i
+
+home/itxt/TalkHub/MysqlMgr/MysqlMgr.s: home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.s
+.PHONY : home/itxt/TalkHub/MysqlMgr/MysqlMgr.s
+
+# target to generate assembly for a file
+home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.s
+.PHONY : home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.s
 
 home/itxt/TalkHub/RedisMgr/RedisMgr.o: home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o
 .PHONY : home/itxt/TalkHub/RedisMgr/RedisMgr.o
@@ -345,6 +321,78 @@ home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.s
 .PHONY : home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.s
 
+home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.o: home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.o
+.PHONY : home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.o
+
+# target to build an object file
+home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.o
+.PHONY : home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.o
+
+home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.i: home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.i
+.PHONY : home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.i
+
+# target to preprocess a source file
+home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.i
+.PHONY : home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.i
+
+home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.s: home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.s
+.PHONY : home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.s
+
+# target to generate assembly for a file
+home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.s
+.PHONY : home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.s
+
+home/itxt/TalkHub/protoc/message.grpc.pb.o: home/itxt/TalkHub/protoc/message.grpc.pb.cc.o
+.PHONY : home/itxt/TalkHub/protoc/message.grpc.pb.o
+
+# target to build an object file
+home/itxt/TalkHub/protoc/message.grpc.pb.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o
+.PHONY : home/itxt/TalkHub/protoc/message.grpc.pb.cc.o
+
+home/itxt/TalkHub/protoc/message.grpc.pb.i: home/itxt/TalkHub/protoc/message.grpc.pb.cc.i
+.PHONY : home/itxt/TalkHub/protoc/message.grpc.pb.i
+
+# target to preprocess a source file
+home/itxt/TalkHub/protoc/message.grpc.pb.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.i
+.PHONY : home/itxt/TalkHub/protoc/message.grpc.pb.cc.i
+
+home/itxt/TalkHub/protoc/message.grpc.pb.s: home/itxt/TalkHub/protoc/message.grpc.pb.cc.s
+.PHONY : home/itxt/TalkHub/protoc/message.grpc.pb.s
+
+# target to generate assembly for a file
+home/itxt/TalkHub/protoc/message.grpc.pb.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.s
+.PHONY : home/itxt/TalkHub/protoc/message.grpc.pb.cc.s
+
+home/itxt/TalkHub/protoc/message.pb.o: home/itxt/TalkHub/protoc/message.pb.cc.o
+.PHONY : home/itxt/TalkHub/protoc/message.pb.o
+
+# target to build an object file
+home/itxt/TalkHub/protoc/message.pb.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o
+.PHONY : home/itxt/TalkHub/protoc/message.pb.cc.o
+
+home/itxt/TalkHub/protoc/message.pb.i: home/itxt/TalkHub/protoc/message.pb.cc.i
+.PHONY : home/itxt/TalkHub/protoc/message.pb.i
+
+# target to preprocess a source file
+home/itxt/TalkHub/protoc/message.pb.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.i
+.PHONY : home/itxt/TalkHub/protoc/message.pb.cc.i
+
+home/itxt/TalkHub/protoc/message.pb.s: home/itxt/TalkHub/protoc/message.pb.cc.s
+.PHONY : home/itxt/TalkHub/protoc/message.pb.s
+
+# target to generate assembly for a file
+home/itxt/TalkHub/protoc/message.pb.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.s
+.PHONY : home/itxt/TalkHub/protoc/message.pb.cc.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -369,54 +417,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-protoc/message.grpc.pb.o: protoc/message.grpc.pb.cc.o
-.PHONY : protoc/message.grpc.pb.o
-
-# target to build an object file
-protoc/message.grpc.pb.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/protoc/message.grpc.pb.cc.o
-.PHONY : protoc/message.grpc.pb.cc.o
-
-protoc/message.grpc.pb.i: protoc/message.grpc.pb.cc.i
-.PHONY : protoc/message.grpc.pb.i
-
-# target to preprocess a source file
-protoc/message.grpc.pb.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/protoc/message.grpc.pb.cc.i
-.PHONY : protoc/message.grpc.pb.cc.i
-
-protoc/message.grpc.pb.s: protoc/message.grpc.pb.cc.s
-.PHONY : protoc/message.grpc.pb.s
-
-# target to generate assembly for a file
-protoc/message.grpc.pb.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/protoc/message.grpc.pb.cc.s
-.PHONY : protoc/message.grpc.pb.cc.s
-
-protoc/message.pb.o: protoc/message.pb.cc.o
-.PHONY : protoc/message.pb.o
-
-# target to build an object file
-protoc/message.pb.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/protoc/message.pb.cc.o
-.PHONY : protoc/message.pb.cc.o
-
-protoc/message.pb.i: protoc/message.pb.cc.i
-.PHONY : protoc/message.pb.i
-
-# target to preprocess a source file
-protoc/message.pb.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/protoc/message.pb.cc.i
-.PHONY : protoc/message.pb.cc.i
-
-protoc/message.pb.s: protoc/message.pb.cc.s
-.PHONY : protoc/message.pb.s
-
-# target to generate assembly for a file
-protoc/message.pb.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/protoc/message.pb.cc.s
-.PHONY : protoc/message.pb.cc.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -438,30 +438,30 @@ help:
 	@echo "... LogicSystem/LogicSystem.o"
 	@echo "... LogicSystem/LogicSystem.i"
 	@echo "... LogicSystem/LogicSystem.s"
-	@echo "... MysqlMgr/MysqlDao.o"
-	@echo "... MysqlMgr/MysqlDao.i"
-	@echo "... MysqlMgr/MysqlDao.s"
-	@echo "... MysqlMgr/MysqlMgr.o"
-	@echo "... MysqlMgr/MysqlMgr.i"
-	@echo "... MysqlMgr/MysqlMgr.s"
-	@echo "... StatusGrpcClient/StatusGrpcClient.o"
-	@echo "... StatusGrpcClient/StatusGrpcClient.i"
-	@echo "... StatusGrpcClient/StatusGrpcClient.s"
 	@echo "... home/itxt/TalkHub/Config/ConfigMgr.o"
 	@echo "... home/itxt/TalkHub/Config/ConfigMgr.i"
 	@echo "... home/itxt/TalkHub/Config/ConfigMgr.s"
+	@echo "... home/itxt/TalkHub/MysqlMgr/MysqlDao.o"
+	@echo "... home/itxt/TalkHub/MysqlMgr/MysqlDao.i"
+	@echo "... home/itxt/TalkHub/MysqlMgr/MysqlDao.s"
+	@echo "... home/itxt/TalkHub/MysqlMgr/MysqlMgr.o"
+	@echo "... home/itxt/TalkHub/MysqlMgr/MysqlMgr.i"
+	@echo "... home/itxt/TalkHub/MysqlMgr/MysqlMgr.s"
 	@echo "... home/itxt/TalkHub/RedisMgr/RedisMgr.o"
 	@echo "... home/itxt/TalkHub/RedisMgr/RedisMgr.i"
 	@echo "... home/itxt/TalkHub/RedisMgr/RedisMgr.s"
+	@echo "... home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.o"
+	@echo "... home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.i"
+	@echo "... home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.s"
+	@echo "... home/itxt/TalkHub/protoc/message.grpc.pb.o"
+	@echo "... home/itxt/TalkHub/protoc/message.grpc.pb.i"
+	@echo "... home/itxt/TalkHub/protoc/message.grpc.pb.s"
+	@echo "... home/itxt/TalkHub/protoc/message.pb.o"
+	@echo "... home/itxt/TalkHub/protoc/message.pb.i"
+	@echo "... home/itxt/TalkHub/protoc/message.pb.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... protoc/message.grpc.pb.o"
-	@echo "... protoc/message.grpc.pb.i"
-	@echo "... protoc/message.grpc.pb.s"
-	@echo "... protoc/message.pb.o"
-	@echo "... protoc/message.pb.i"
-	@echo "... protoc/message.pb.s"
 .PHONY : help
 
 

@@ -7,6 +7,7 @@
 #include <boost/property_tree/ptree.hpp>
 #include <boost/property_tree/ini_parser.hpp>
 
+// 一个节的数据
 struct SectionInfo
 {
     std::map<std::string, std::string> m_section_data;
@@ -41,6 +42,7 @@ public:
     ConfigMgr(const ConfigMgr& rhs) = delete;
     ConfigMgr& operator=(const ConfigMgr& rhs) = delete;
     SectionInfo operator[](const std::string& section_name);
+    bool isContainSection(const std::string& section_name) const;
     ~ConfigMgr();
     static ConfigMgr& getInstance()
     {

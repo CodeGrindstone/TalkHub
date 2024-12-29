@@ -26,13 +26,13 @@
 },
 {
   "directory": "/home/itxt/TalkHub/GateServer/build",
-  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/MysqlMgr/MysqlDao.cpp.o -c /home/itxt/TalkHub/GateServer/MysqlMgr/MysqlDao.cpp",
-  "file": "/home/itxt/TalkHub/GateServer/MysqlMgr/MysqlDao.cpp"
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.o -c /home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp",
+  "file": "/home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp"
 },
 {
   "directory": "/home/itxt/TalkHub/GateServer/build",
-  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/MysqlMgr/MysqlMgr.cpp.o -c /home/itxt/TalkHub/GateServer/MysqlMgr/MysqlMgr.cpp",
-  "file": "/home/itxt/TalkHub/GateServer/MysqlMgr/MysqlMgr.cpp"
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.o -c /home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp",
+  "file": "/home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp"
 },
 {
   "directory": "/home/itxt/TalkHub/GateServer/build",
@@ -41,13 +41,13 @@
 },
 {
   "directory": "/home/itxt/TalkHub/GateServer/build",
-  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/protoc/message.grpc.pb.cc.o -c /home/itxt/TalkHub/GateServer/protoc/message.grpc.pb.cc",
-  "file": "/home/itxt/TalkHub/GateServer/protoc/message.grpc.pb.cc"
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o -c /home/itxt/TalkHub/protoc/message.grpc.pb.cc",
+  "file": "/home/itxt/TalkHub/protoc/message.grpc.pb.cc"
 },
 {
   "directory": "/home/itxt/TalkHub/GateServer/build",
-  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/protoc/message.pb.cc.o -c /home/itxt/TalkHub/GateServer/protoc/message.pb.cc",
-  "file": "/home/itxt/TalkHub/GateServer/protoc/message.pb.cc"
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o -c /home/itxt/TalkHub/protoc/message.pb.cc",
+  "file": "/home/itxt/TalkHub/protoc/message.pb.cc"
 },
 {
   "directory": "/home/itxt/TalkHub/GateServer/build",
@@ -56,7 +56,7 @@
 },
 {
   "directory": "/home/itxt/TalkHub/GateServer/build",
-  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o -c /home/itxt/TalkHub/GateServer/StatusGrpcClient/StatusGrpcClient.cpp",
-  "file": "/home/itxt/TalkHub/GateServer/StatusGrpcClient/StatusGrpcClient.cpp"
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/GateServer.dir/home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.o -c /home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp",
+  "file": "/home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp"
 }
 ]

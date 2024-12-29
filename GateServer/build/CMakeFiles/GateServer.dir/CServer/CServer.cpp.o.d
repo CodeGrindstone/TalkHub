@@ -1972,13 +1972,42 @@ CMakeFiles/GateServer.dir/CServer/CServer.cpp.o: \
  /usr/include/boost/property_tree/detail/ptree_implementation.hpp \
  /usr/include/boost/property_tree/ini_parser.hpp \
  /usr/include/boost/property_tree/detail/file_parser_error.hpp \
+ /home/itxt/TalkHub/GateServer/CServer/../HttpConn/../LogicSystem/../../RedisMgr/../MysqlMgr/MysqlMgr.h \
+ /usr/local/include/json/json.h /usr/local/include/json/config.h \
+ /usr/local/include/json/allocator.h /usr/local/include/json/version.h \
+ /usr/local/include/json/json_features.h \
+ /usr/local/include/json/forwards.h /usr/local/include/json/reader.h \
+ /usr/local/include/json/value.h /usr/include/c++/11/deque \
+ /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
+ /usr/include/c++/11/stack /usr/include/c++/11/bits/stl_stack.h \
+ /usr/local/include/json/writer.h /usr/local/include/json/value.h \
+ /home/itxt/TalkHub/GateServer/CServer/../HttpConn/../LogicSystem/../../RedisMgr/../MysqlMgr/MysqlDao.h \
+ /usr/local/include/mysql_driver.h /usr/local/include/cppconn/driver.h \
+ /usr/local/include/cppconn/connection.h \
+ /usr/local/include/cppconn/build_config.h \
+ /usr/local/include/cppconn/warning.h \
+ /usr/local/include/cppconn/sqlstring.h \
+ /usr/local/include/cppconn/variant.h \
+ /usr/local/include/cppconn/exception.h \
+ /usr/local/include/cppconn/callback.h \
+ /usr/local/include/mysql_connection.h \
+ /usr/local/include/cppconn/connection.h \
+ /usr/local/include/cppconn/resultset.h \
+ /usr/local/include/cppconn/config.h /usr/include/inttypes.h \
+ /usr/local/include/cppconn/resultset_metadata.h \
+ /usr/local/include/cppconn/datatype.h \
+ /usr/local/include/cppconn/connection.h \
+ /usr/local/include/cppconn/exception.h \
+ /usr/local/include/cppconn/prepared_statement.h \
+ /usr/local/include/cppconn/statement.h \
+ /usr/local/include/cppconn/resultset.h /usr/include/c++/11/queue \
+ /usr/include/c++/11/bits/stl_queue.h \
+ /home/itxt/TalkHub/GateServer/CServer/../HttpConn/../LogicSystem/../../RedisMgr/../MysqlMgr/../Singleton.h \
  /usr/include/hiredis/hiredis.h /usr/include/hiredis/read.h \
  /usr/include/hiredis/sds.h /usr/include/hiredis/alloc.h \
  /usr/include/c++/11/stdlib.h /usr/local/include/sw/redis++/redis++.h \
  /usr/local/include/sw/redis++/redis.h \
  /usr/local/include/sw/redis++/connection_pool.h \
- /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
- /usr/include/c++/11/bits/deque.tcc \
  /usr/local/include/sw/redis++/connection.h \
  /usr/local/include/sw/redis++/errors.h \
  /usr/local/include/sw/redis++/reply.h \
@@ -2004,10 +2033,4 @@ CMakeFiles/GateServer.dir/CServer/CServer.cpp.o: \
  /usr/include/c++/11/unordered_set \
  /usr/include/c++/11/bits/unordered_set.h \
  /usr/local/include/sw/redis++/queued_redis.hpp \
- /usr/local/include/json/reader.h /usr/local/include/json/json_features.h \
- /usr/local/include/json/forwards.h /usr/local/include/json/config.h \
- /usr/local/include/json/allocator.h /usr/local/include/json/version.h \
- /usr/local/include/json/value.h /usr/include/c++/11/stack \
- /usr/include/c++/11/bits/stl_stack.h /usr/local/include/json/value.h \
- /usr/local/include/json/json.h /usr/local/include/json/reader.h \
- /usr/local/include/json/writer.h
+ /usr/local/include/json/reader.h

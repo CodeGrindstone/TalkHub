@@ -94,42 +94,7 @@ CMakeFiles/GateServer.dir/main.cpp.o: \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/stl_tempbuf.h \
- /usr/include/c++/11/bits/uniform_int_dist.h \
- /home/itxt/TalkHub/GateServer/CServer/CServer.h \
- /usr/include/boost/beast/http.hpp \
- /usr/include/boost/beast/core/detail/config.hpp \
- /usr/include/boost/config.hpp /usr/include/boost/config/user.hpp \
- /usr/include/boost/config/detail/select_compiler_config.hpp \
- /usr/include/boost/config/compiler/gcc.hpp /usr/include/c++/11/cstddef \
- /usr/include/boost/config/detail/select_stdlib_config.hpp \
- /usr/include/c++/11/version \
- /usr/include/boost/config/stdlib/libstdcpp3.hpp /usr/include/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
- /usr/include/x86_64-linux-gnu/bits/environments.h \
- /usr/include/x86_64-linux-gnu/bits/confname.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h \
- /usr/include/boost/config/detail/select_platform_config.hpp \
- /usr/include/boost/config/platform/linux.hpp \
- /usr/include/boost/config/detail/posix_features.hpp \
- /usr/include/boost/config/detail/suffix.hpp \
- /usr/include/boost/config/helper_macros.hpp \
- /usr/include/boost/version.hpp /usr/include/boost/core/ignore_unused.hpp \
- /usr/include/boost/static_assert.hpp \
- /usr/include/boost/detail/workaround.hpp \
- /usr/include/boost/config/workaround.hpp \
- /usr/include/boost/beast/http/basic_dynamic_body.hpp \
- /usr/include/boost/beast/core/buffer_traits.hpp \
- /usr/include/boost/beast/core/detail/buffer_traits.hpp \
- /usr/include/boost/asio/buffer.hpp \
- /usr/include/boost/asio/detail/config.hpp /usr/include/linux/version.h \
- /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
- /usr/include/c++/11/limits /usr/include/c++/11/stdexcept \
- /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
- /usr/include/c++/11/bits/cxxabi_init_exception.h \
- /usr/include/c++/11/bits/nested_exception.h /usr/include/c++/11/string \
+ /usr/include/c++/11/bits/uniform_int_dist.h /usr/include/c++/11/string \
  /usr/include/c++/11/bits/stringfwd.h \
  /usr/include/c++/11/bits/char_traits.h \
  /usr/include/c++/11/bits/postypes.h /usr/include/c++/11/cwchar \
@@ -181,6 +146,41 @@ CMakeFiles/GateServer.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
+ /home/itxt/TalkHub/GateServer/CServer/CServer.h \
+ /usr/include/boost/beast/http.hpp \
+ /usr/include/boost/beast/core/detail/config.hpp \
+ /usr/include/boost/config.hpp /usr/include/boost/config/user.hpp \
+ /usr/include/boost/config/detail/select_compiler_config.hpp \
+ /usr/include/boost/config/compiler/gcc.hpp /usr/include/c++/11/cstddef \
+ /usr/include/boost/config/detail/select_stdlib_config.hpp \
+ /usr/include/c++/11/version \
+ /usr/include/boost/config/stdlib/libstdcpp3.hpp /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h \
+ /usr/include/boost/config/detail/select_platform_config.hpp \
+ /usr/include/boost/config/platform/linux.hpp \
+ /usr/include/boost/config/detail/posix_features.hpp \
+ /usr/include/boost/config/detail/suffix.hpp \
+ /usr/include/boost/config/helper_macros.hpp \
+ /usr/include/boost/version.hpp /usr/include/boost/core/ignore_unused.hpp \
+ /usr/include/boost/static_assert.hpp \
+ /usr/include/boost/detail/workaround.hpp \
+ /usr/include/boost/config/workaround.hpp \
+ /usr/include/boost/beast/http/basic_dynamic_body.hpp \
+ /usr/include/boost/beast/core/buffer_traits.hpp \
+ /usr/include/boost/beast/core/detail/buffer_traits.hpp \
+ /usr/include/boost/asio/buffer.hpp \
+ /usr/include/boost/asio/detail/config.hpp /usr/include/linux/version.h \
+ /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
+ /usr/include/c++/11/limits /usr/include/c++/11/stdexcept \
+ /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
+ /usr/include/c++/11/bits/cxxabi_init_exception.h \
+ /usr/include/c++/11/bits/nested_exception.h \
  /usr/include/boost/asio/detail/array_fwd.hpp \
  /usr/include/boost/asio/detail/memory.hpp /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \

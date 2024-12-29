@@ -37,10 +37,10 @@ find_library(REDIS_PLUS_PLUS_LIB redis++)
 set(EXECUTABLE_OUTPUT_PATH ../)
 
 set(protoc
-    protoc/message.pb.h
-    protoc/message.pb.cc
-    protoc/message.grpc.pb.h
-    protoc/message.grpc.pb.cc
+    ../protoc/message.pb.h
+    ../protoc/message.pb.cc
+    ../protoc/message.grpc.pb.h
+    ../protoc/message.grpc.pb.cc
 )
 
 set(ConfigMgr

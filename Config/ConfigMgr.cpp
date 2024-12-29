@@ -3,7 +3,6 @@
 ConfigMgr::ConfigMgr()
 {
     boost::filesystem::path config_path = "../Config/config.ini";
-    std::cout << config_path<< std::endl;
     // 使用Boost.PropertyTree来读取INI文件
     boost::property_tree::ptree pt;
     boost::property_tree::read_ini(config_path.string(), pt);
@@ -24,16 +23,16 @@ ConfigMgr::ConfigMgr()
         // 将section的key-value对保存到config_map中
         m_config_map[section_name] = sectionInfo;
     }
-    // 输出所有的section和key-value对
-    for (const auto& section_entry : m_config_map) {
-        const std::string& section_name = section_entry.first;
-        SectionInfo section_config = section_entry.second;
-        std::cout << "[" << section_name << "]" << std::endl;
-        for (const auto& key_value_pair : section_config.m_section_data) {
-            std::cout << key_value_pair.first << "=" << key_value_pair.second << std::endl;
-        }
-    }
+    // // 输出所有的section和key-value对
+    // for (const auto& section_entry : m_config_map) {
+    //     const std::string& section_name = section_entry.first;
+    //     SectionInfo section_config = section_entry.second;
+    //     // std::cout << "[" << section_name << "]" << std::endl;
+    //     for (const auto& key_value_pair : section_config.m_section_data) {
+    //         // std::cout << key_value_pair.first << "=" << key_value_pair.second << std::endl;
+    //     }
 }
+
 
 
 ConfigMgr::~ConfigMgr()
@@ -48,4 +47,13 @@ SectionInfo ConfigMgr::operator[](const std::string& section_name)
     }
 
     return m_config_map[section_name];
+}
+
+bool ConfigMgr::isContainSection(const std::string & section_name) const
+{
+    if(m_config_map.find(section_name) == m_config_map.end())
+    {
+        return false;
+    }
+    return true;
 }

@@ -1,7 +1,67 @@
 [
 {
   "directory": "/home/itxt/TalkHub/ChatServer/build",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/itxt/TalkHub/ChatServer/main.cpp",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/chatserver.dir/main.cpp.o -c /home/itxt/TalkHub/ChatServer/main.cpp",
   "file": "/home/itxt/TalkHub/ChatServer/main.cpp"
+},
+{
+  "directory": "/home/itxt/TalkHub/ChatServer/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/chatserver.dir/ChatServer/ChatServer.cpp.o -c /home/itxt/TalkHub/ChatServer/ChatServer/ChatServer.cpp",
+  "file": "/home/itxt/TalkHub/ChatServer/ChatServer/ChatServer.cpp"
+},
+{
+  "directory": "/home/itxt/TalkHub/ChatServer/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/chatserver.dir/home/itxt/TalkHub/protoc/message.pb.cc.o -c /home/itxt/TalkHub/protoc/message.pb.cc",
+  "file": "/home/itxt/TalkHub/protoc/message.pb.cc"
+},
+{
+  "directory": "/home/itxt/TalkHub/ChatServer/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/chatserver.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o -c /home/itxt/TalkHub/protoc/message.grpc.pb.cc",
+  "file": "/home/itxt/TalkHub/protoc/message.grpc.pb.cc"
+},
+{
+  "directory": "/home/itxt/TalkHub/ChatServer/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/chatserver.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o -c /home/itxt/TalkHub/Config/ConfigMgr.cpp",
+  "file": "/home/itxt/TalkHub/Config/ConfigMgr.cpp"
+},
+{
+  "directory": "/home/itxt/TalkHub/ChatServer/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/chatserver.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o -c /home/itxt/TalkHub/RedisMgr/RedisMgr.cpp",
+  "file": "/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp"
+},
+{
+  "directory": "/home/itxt/TalkHub/ChatServer/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/chatserver.dir/home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.o -c /home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp",
+  "file": "/home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp"
+},
+{
+  "directory": "/home/itxt/TalkHub/ChatServer/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/chatserver.dir/MessageHandler/IMessageHandler.cpp.o -c /home/itxt/TalkHub/ChatServer/MessageHandler/IMessageHandler.cpp",
+  "file": "/home/itxt/TalkHub/ChatServer/MessageHandler/IMessageHandler.cpp"
+},
+{
+  "directory": "/home/itxt/TalkHub/ChatServer/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/chatserver.dir/ChatGrpcClient/ChatGrpcClient.cpp.o -c /home/itxt/TalkHub/ChatServer/ChatGrpcClient/ChatGrpcClient.cpp",
+  "file": "/home/itxt/TalkHub/ChatServer/ChatGrpcClient/ChatGrpcClient.cpp"
+},
+{
+  "directory": "/home/itxt/TalkHub/ChatServer/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/chatserver.dir/ChatServiceImpl/ChatServiceImpl.cpp.o -c /home/itxt/TalkHub/ChatServer/ChatServiceImpl/ChatServiceImpl.cpp",
+  "file": "/home/itxt/TalkHub/ChatServer/ChatServiceImpl/ChatServiceImpl.cpp"
+},
+{
+  "directory": "/home/itxt/TalkHub/ChatServer/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/chatserver.dir/UserMgr/UserMgr.cpp.o -c /home/itxt/TalkHub/ChatServer/UserMgr/UserMgr.cpp",
+  "file": "/home/itxt/TalkHub/ChatServer/UserMgr/UserMgr.cpp"
+},
+{
+  "directory": "/home/itxt/TalkHub/ChatServer/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/chatserver.dir/home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.o -c /home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp",
+  "file": "/home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp"
+},
+{
+  "directory": "/home/itxt/TalkHub/ChatServer/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB  -g -std=gnu++17 -o CMakeFiles/chatserver.dir/home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.o -c /home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp",
+  "file": "/home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp"
 }
 ]

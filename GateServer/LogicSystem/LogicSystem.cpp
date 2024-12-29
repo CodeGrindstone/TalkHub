@@ -5,8 +5,20 @@
 #include "LogicSystem.h"
 #include "../HttpConn/HttpConn.h"
 #include "../VerifyGrpcClient/VerifyGrpcClient.h"
-#include "../MysqlMgr/MysqlMgr.h"
-#include "../StatusGrpcClient/StatusGrpcClient.h"
+#include "../../MysqlMgr/MysqlMgr.h"
+#include "../../StatusGrpcClient/StatusGrpcClient.h"
+
+bool parseJson(Json::Value & root, std::string & bodyStr, Json::Value & srcRoot)
+{
+    Json::Reader reader;
+    bool parse_success = reader.parse(bodyStr, srcRoot);
+    if(!parse_success)
+    {
+        root["code"] = ErrorCodes::ERR_INVALID_PARAMS;
+        return false;
+    }
+    return true;
+}
 
 LogicSystem::~LogicSystem()
 {
@@ -59,45 +71,24 @@ LogicSystem::LogicSystem()
         connection->m_response.set(http::field::content_type, "text/json");
 
         Json::Value root;
-        Json::Reader reader;
         Json::Value src_root;
-        bool parse_success = reader.parse(body_str, src_root);
-        if(!parse_success)
-        {
-            root["code"] = ErrorCodes::ERR_INVALID_PARAMS;
-            std::string jsonstr = root.toStyledString();
-            beast::ostream(connection->m_response.body()) << jsonstr;
-            return;
-        }
 
         Defer defer([&connection, &root]{
             std::string jsonstr = root.toStyledString();
             beast::ostream(connection->m_response.body()) << jsonstr;
         });
 
+        if(!parseJson(root, body_str, src_root))
+            return;
+
         VerifyType type = static_cast<VerifyType>(src_root["type"].asInt());
         std::string email = src_root["email"].asString();
-        int errorCode;
-        if(!MysqlMgr::GetInstance()->isUserExistByEmail(email, errorCode)) // 执行失败
-        {
-            // 根据errorCode做出不同动作
-            switch(errorCode)
-            {
-                case -1:{
-                    root["code"] = ErrorCodes::ERR_DATABASE;
-                    break;
-                }
-                default:{
-                    root["root"] = ErrorCodes::ERR_SERVER_INTERNAL;
-                }
-            }
-            return;
-        }
+        bool exists = MysqlMgr::GetInstance()->isUserExistByEmail(email);
 
         if(type == VerifyType::REGISTER)
         {
-            if(!errorCode)  // 不存在此邮箱
-            {
+            if(!exists) // 不存在邮箱
+            {   
                 GetVerifyRsp rsp = VerifyGrpcClient::GetInstance()->GetVerifyCode(email);
                 std::cout << "email is " << email << std::endl;
                 root["code"] = rsp.error();
@@ -111,7 +102,7 @@ LogicSystem::LogicSystem()
         }
         else if(type == VerifyType::RESET_PASSWD || type == VerifyType::LOGIN)
         {
-            if(!errorCode)  // 不存在用户
+            if(!exists)  // 不存在用户
             {
                 root["code"] = ErrorCodes::ERR_USER_NOT_FOUND;
             }
@@ -131,7 +122,6 @@ LogicSystem::LogicSystem()
         connection->m_response.set(http::field::content_type, "text/json");
 
         Json::Value root;
-        Json::Reader reader;
         Json::Value src_root;
 
         Defer defer([&connection, &root]{
@@ -139,12 +129,8 @@ LogicSystem::LogicSystem()
             beast::ostream(connection->m_response.body()) << jsonstr;
         });
 
-        bool parse_success = reader.parse(body_str, src_root);
-        if(!parse_success)
-        {
-            root["code"] = ErrorCodes::ERR_INVALID_PARAMS;
+        if(!parseJson(root, body_str, src_root))
             return;
-        }
 
         auto email = src_root["email"].asString();
         auto pwd = src_root["passwd"].asString();
@@ -174,7 +160,6 @@ LogicSystem::LogicSystem()
         connection->m_response.set(http::field::content_type, "text/json");
 
         Json::Value root;
-        Json::Reader reader;
         Json::Value src_root;
 
         Defer defer([&connection, &root]{
@@ -182,12 +167,8 @@ LogicSystem::LogicSystem()
             beast::ostream(connection->m_response.body()) << jsonstr;
         });
 
-        bool parse_success = reader.parse(body_str, src_root);
-        if(!parse_success)
-        {
-            root["code"] = ErrorCodes::ERR_INVALID_PARAMS;
+        if(!parseJson(root, body_str, src_root))
             return;
-        }
 
         auto email = src_root["email"].asString();
         auto pwd = src_root["passwd"].asString();
@@ -217,7 +198,6 @@ LogicSystem::LogicSystem()
         connection->m_response.set(http::field::content_type, "text/json");
 
         Json::Value root;
-        Json::Reader reader;
         Json::Value src_root;
 
         Defer defer([&connection, &root]{
@@ -225,22 +205,21 @@ LogicSystem::LogicSystem()
             beast::ostream(connection->m_response.body()) << jsonstr;
         });
 
-        bool parse_success = reader.parse(body_str, src_root);
-        if(!parse_success)
-        {
-            root["code"] = ErrorCodes::ERR_INVALID_PARAMS;
+        if(!parseJson(root, body_str, src_root))
             return;
-        }
 
         auto email = src_root["email"].asString();
         auto pwd = src_root["passwd"].asString();
 
-        unsigned int uid;
+        int uid;
         if(!MysqlMgr::GetInstance()->VerifyUser(root, email, pwd, uid)) // 注册账户
         {
             root["code"] = ErrorCodes::ERR_SERVER_INTERNAL; // 服务器内部错误
             return;
         }
+        root["email"] = email;
+        root["uid"] = uid;
+
 
         //查询StatusServer找到合适的连接
         auto reply = StatusGrpcClient::GetInstance()->GetChatServer(root, uid);
@@ -249,55 +228,4 @@ LogicSystem::LogicSystem()
             return;
         }
     });
-
-    // RegPost("/user_login", [](std::shared_ptr<HttpConn> connection) {
-    //     auto body_str = boost::beast::buffers_to_string(connection->m_request.body().data());
-    //     std::cout << "receive body is " << body_str << std::endl;
-    //     connection->m_response.set(http::field::content_type, "text/json");
-    //     Json::Value root;
-    //     Json::Reader reader;
-    //     Json::Value src_root;
-    //     bool parse_success = reader.parse(body_str, src_root);
-    //     if (!parse_success) {
-    //         std::cout << "Failed to parse JSON data!" << std::endl;
-    //         root["error"] = ErrorCodes::Error_Json;
-    //         std::string jsonstr = root.toStyledString();
-    //         beast::ostream(connection->m_response.body()) << jsonstr;
-    //         return true;
-    //     }
-    //     auto email = src_root["email"].asString();
-    //     auto pwd = src_root["passwd"].asString();
-    //     UserInfo userInfo;
-    //     //查询数据库判断用户名和密码是否匹配
-    //     bool pwd_valid = MysqlMgr::GetInstance()->CheckPwd(email, pwd, userInfo);
-    //     if (!pwd_valid) {
-    //         std::cout << " user pwd not match" << std::endl;
-    //         root["error"] = ErrorCodes::PasswdInvalid;
-    //         std::string jsonstr = root.toStyledString();
-    //         beast::ostream(connection->m_response.body()) << jsonstr;
-    //         return true;
-    //     }
-    //     //查询StatusServer找到合适的连接
-    //     auto reply = StatusGrpcClient::GetInstance()->GetChatServer(userInfo.uid);
-    //     if (reply.error()) {
-    //         std::cout << "grpc get chat server failed, error is " << reply.error()<< std::endl;
-    //         root["error"] = ErrorCodes::RPCFailed;
-    //         std::string jsonstr = root.toStyledString();
-    //         beast::ostream(connection->m_response.body()) << jsonstr;
-    //         return true;
-    //     }
-    //     std::cout << "succeed to load userinfo uid is " << userInfo.uid << std::endl;
-    //     root["error"] = 0;
-    //     root["email"] = email;
-    //     root["uid"] = userInfo.uid;
-    //     root["token"] = reply.token();
-    //     root["host"] = reply.host();
-    //     root["port"] = reply.port();
-    // #if DEBUG
-    //     std::cout << "host: " << reply.host() <<" port: " << reply.port() << std::endl;
-    // #endif
-    //     std::string jsonstr = root.toStyledString();
-    //     beast::ostream(connection->m_response.body()) << jsonstr;
-    //     return true;
-    //});
 }

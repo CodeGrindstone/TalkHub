@@ -12,8 +12,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/itxt/TalkHub/StatusServer/StatusServiceImpl.cpp" "CMakeFiles/StatusServer.dir/StatusServiceImpl.cpp.o" "gcc" "CMakeFiles/StatusServer.dir/StatusServiceImpl.cpp.o.d"
   "/home/itxt/TalkHub/Config/ConfigMgr.cpp" "CMakeFiles/StatusServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o" "gcc" "CMakeFiles/StatusServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o.d"
   "/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp" "CMakeFiles/StatusServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o" "gcc" "CMakeFiles/StatusServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o.d"
-  "/home/itxt/TalkHub/StatusServer/protoc/message.grpc.pb.cc" "CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.o" "gcc" "CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.o.d"
-  "/home/itxt/TalkHub/StatusServer/protoc/message.pb.cc" "CMakeFiles/StatusServer.dir/protoc/message.pb.cc.o" "gcc" "CMakeFiles/StatusServer.dir/protoc/message.pb.cc.o.d"
+  "/home/itxt/TalkHub/protoc/message.grpc.pb.cc" "CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o" "gcc" "CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o.d"
+  "/home/itxt/TalkHub/protoc/message.pb.cc" "CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o" "gcc" "CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o.d"
   )
 
 # Targets to which this target links.

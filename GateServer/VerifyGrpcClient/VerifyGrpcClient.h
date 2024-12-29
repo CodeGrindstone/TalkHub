@@ -1,10 +1,10 @@
 #pragma once
 
 #include <grpcpp/grpcpp.h>
-#include "../protoc/message.grpc.pb.h"
-#include "../protoc/message.pb.h"
+#include "../../protoc/message.grpc.pb.h"
+#include "../../protoc/message.pb.h"
 #include "../../const.h"
-#include "../protoc/message.grpc.pb.h"
+#include "../../protoc/message.grpc.pb.h"
 #include "../../Config/ConfigMgr.h"
 #include "../Singleton.h"
 #include <grpcpp/grpcpp.h>

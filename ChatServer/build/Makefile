@@ -117,24 +117,312 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ChatServer
+# Target rules for targets named chatserver
 
 # Build rule for target.
-ChatServer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ChatServer
-.PHONY : ChatServer
+chatserver: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chatserver
+.PHONY : chatserver
 
 # fast build rule for target.
-ChatServer/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatServer.dir/build.make CMakeFiles/ChatServer.dir/build
-.PHONY : ChatServer/fast
+chatserver/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/build
+.PHONY : chatserver/fast
+
+ChatGrpcClient/ChatGrpcClient.o: ChatGrpcClient/ChatGrpcClient.cpp.o
+.PHONY : ChatGrpcClient/ChatGrpcClient.o
+
+# target to build an object file
+ChatGrpcClient/ChatGrpcClient.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/ChatGrpcClient/ChatGrpcClient.cpp.o
+.PHONY : ChatGrpcClient/ChatGrpcClient.cpp.o
+
+ChatGrpcClient/ChatGrpcClient.i: ChatGrpcClient/ChatGrpcClient.cpp.i
+.PHONY : ChatGrpcClient/ChatGrpcClient.i
+
+# target to preprocess a source file
+ChatGrpcClient/ChatGrpcClient.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/ChatGrpcClient/ChatGrpcClient.cpp.i
+.PHONY : ChatGrpcClient/ChatGrpcClient.cpp.i
+
+ChatGrpcClient/ChatGrpcClient.s: ChatGrpcClient/ChatGrpcClient.cpp.s
+.PHONY : ChatGrpcClient/ChatGrpcClient.s
+
+# target to generate assembly for a file
+ChatGrpcClient/ChatGrpcClient.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/ChatGrpcClient/ChatGrpcClient.cpp.s
+.PHONY : ChatGrpcClient/ChatGrpcClient.cpp.s
+
+ChatServer/ChatServer.o: ChatServer/ChatServer.cpp.o
+.PHONY : ChatServer/ChatServer.o
+
+# target to build an object file
+ChatServer/ChatServer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/ChatServer/ChatServer.cpp.o
+.PHONY : ChatServer/ChatServer.cpp.o
+
+ChatServer/ChatServer.i: ChatServer/ChatServer.cpp.i
+.PHONY : ChatServer/ChatServer.i
+
+# target to preprocess a source file
+ChatServer/ChatServer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/ChatServer/ChatServer.cpp.i
+.PHONY : ChatServer/ChatServer.cpp.i
+
+ChatServer/ChatServer.s: ChatServer/ChatServer.cpp.s
+.PHONY : ChatServer/ChatServer.s
+
+# target to generate assembly for a file
+ChatServer/ChatServer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/ChatServer/ChatServer.cpp.s
+.PHONY : ChatServer/ChatServer.cpp.s
+
+ChatServiceImpl/ChatServiceImpl.o: ChatServiceImpl/ChatServiceImpl.cpp.o
+.PHONY : ChatServiceImpl/ChatServiceImpl.o
+
+# target to build an object file
+ChatServiceImpl/ChatServiceImpl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/ChatServiceImpl/ChatServiceImpl.cpp.o
+.PHONY : ChatServiceImpl/ChatServiceImpl.cpp.o
+
+ChatServiceImpl/ChatServiceImpl.i: ChatServiceImpl/ChatServiceImpl.cpp.i
+.PHONY : ChatServiceImpl/ChatServiceImpl.i
+
+# target to preprocess a source file
+ChatServiceImpl/ChatServiceImpl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/ChatServiceImpl/ChatServiceImpl.cpp.i
+.PHONY : ChatServiceImpl/ChatServiceImpl.cpp.i
+
+ChatServiceImpl/ChatServiceImpl.s: ChatServiceImpl/ChatServiceImpl.cpp.s
+.PHONY : ChatServiceImpl/ChatServiceImpl.s
+
+# target to generate assembly for a file
+ChatServiceImpl/ChatServiceImpl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/ChatServiceImpl/ChatServiceImpl.cpp.s
+.PHONY : ChatServiceImpl/ChatServiceImpl.cpp.s
+
+MessageHandler/IMessageHandler.o: MessageHandler/IMessageHandler.cpp.o
+.PHONY : MessageHandler/IMessageHandler.o
+
+# target to build an object file
+MessageHandler/IMessageHandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/MessageHandler/IMessageHandler.cpp.o
+.PHONY : MessageHandler/IMessageHandler.cpp.o
+
+MessageHandler/IMessageHandler.i: MessageHandler/IMessageHandler.cpp.i
+.PHONY : MessageHandler/IMessageHandler.i
+
+# target to preprocess a source file
+MessageHandler/IMessageHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/MessageHandler/IMessageHandler.cpp.i
+.PHONY : MessageHandler/IMessageHandler.cpp.i
+
+MessageHandler/IMessageHandler.s: MessageHandler/IMessageHandler.cpp.s
+.PHONY : MessageHandler/IMessageHandler.s
+
+# target to generate assembly for a file
+MessageHandler/IMessageHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/MessageHandler/IMessageHandler.cpp.s
+.PHONY : MessageHandler/IMessageHandler.cpp.s
+
+UserMgr/UserMgr.o: UserMgr/UserMgr.cpp.o
+.PHONY : UserMgr/UserMgr.o
+
+# target to build an object file
+UserMgr/UserMgr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/UserMgr/UserMgr.cpp.o
+.PHONY : UserMgr/UserMgr.cpp.o
+
+UserMgr/UserMgr.i: UserMgr/UserMgr.cpp.i
+.PHONY : UserMgr/UserMgr.i
+
+# target to preprocess a source file
+UserMgr/UserMgr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/UserMgr/UserMgr.cpp.i
+.PHONY : UserMgr/UserMgr.cpp.i
+
+UserMgr/UserMgr.s: UserMgr/UserMgr.cpp.s
+.PHONY : UserMgr/UserMgr.s
+
+# target to generate assembly for a file
+UserMgr/UserMgr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/UserMgr/UserMgr.cpp.s
+.PHONY : UserMgr/UserMgr.cpp.s
+
+home/itxt/TalkHub/Config/ConfigMgr.o: home/itxt/TalkHub/Config/ConfigMgr.cpp.o
+.PHONY : home/itxt/TalkHub/Config/ConfigMgr.o
+
+# target to build an object file
+home/itxt/TalkHub/Config/ConfigMgr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o
+.PHONY : home/itxt/TalkHub/Config/ConfigMgr.cpp.o
+
+home/itxt/TalkHub/Config/ConfigMgr.i: home/itxt/TalkHub/Config/ConfigMgr.cpp.i
+.PHONY : home/itxt/TalkHub/Config/ConfigMgr.i
+
+# target to preprocess a source file
+home/itxt/TalkHub/Config/ConfigMgr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.i
+.PHONY : home/itxt/TalkHub/Config/ConfigMgr.cpp.i
+
+home/itxt/TalkHub/Config/ConfigMgr.s: home/itxt/TalkHub/Config/ConfigMgr.cpp.s
+.PHONY : home/itxt/TalkHub/Config/ConfigMgr.s
+
+# target to generate assembly for a file
+home/itxt/TalkHub/Config/ConfigMgr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.s
+.PHONY : home/itxt/TalkHub/Config/ConfigMgr.cpp.s
+
+home/itxt/TalkHub/MysqlMgr/MysqlDao.o: home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.o
+.PHONY : home/itxt/TalkHub/MysqlMgr/MysqlDao.o
+
+# target to build an object file
+home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.o
+.PHONY : home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.o
+
+home/itxt/TalkHub/MysqlMgr/MysqlDao.i: home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.i
+.PHONY : home/itxt/TalkHub/MysqlMgr/MysqlDao.i
+
+# target to preprocess a source file
+home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.i
+.PHONY : home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.i
+
+home/itxt/TalkHub/MysqlMgr/MysqlDao.s: home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.s
+.PHONY : home/itxt/TalkHub/MysqlMgr/MysqlDao.s
+
+# target to generate assembly for a file
+home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.s
+.PHONY : home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.s
+
+home/itxt/TalkHub/MysqlMgr/MysqlMgr.o: home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.o
+.PHONY : home/itxt/TalkHub/MysqlMgr/MysqlMgr.o
+
+# target to build an object file
+home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.o
+.PHONY : home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.o
+
+home/itxt/TalkHub/MysqlMgr/MysqlMgr.i: home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.i
+.PHONY : home/itxt/TalkHub/MysqlMgr/MysqlMgr.i
+
+# target to preprocess a source file
+home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.i
+.PHONY : home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.i
+
+home/itxt/TalkHub/MysqlMgr/MysqlMgr.s: home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.s
+.PHONY : home/itxt/TalkHub/MysqlMgr/MysqlMgr.s
+
+# target to generate assembly for a file
+home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.s
+.PHONY : home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.s
+
+home/itxt/TalkHub/RedisMgr/RedisMgr.o: home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o
+.PHONY : home/itxt/TalkHub/RedisMgr/RedisMgr.o
+
+# target to build an object file
+home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o
+.PHONY : home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o
+
+home/itxt/TalkHub/RedisMgr/RedisMgr.i: home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.i
+.PHONY : home/itxt/TalkHub/RedisMgr/RedisMgr.i
+
+# target to preprocess a source file
+home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.i
+.PHONY : home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.i
+
+home/itxt/TalkHub/RedisMgr/RedisMgr.s: home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.s
+.PHONY : home/itxt/TalkHub/RedisMgr/RedisMgr.s
+
+# target to generate assembly for a file
+home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.s
+.PHONY : home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.s
+
+home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.o: home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.o
+.PHONY : home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.o
+
+# target to build an object file
+home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.o
+.PHONY : home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.o
+
+home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.i: home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.i
+.PHONY : home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.i
+
+# target to preprocess a source file
+home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.i
+.PHONY : home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.i
+
+home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.s: home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.s
+.PHONY : home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.s
+
+# target to generate assembly for a file
+home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.s
+.PHONY : home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.s
+
+home/itxt/TalkHub/protoc/message.grpc.pb.o: home/itxt/TalkHub/protoc/message.grpc.pb.cc.o
+.PHONY : home/itxt/TalkHub/protoc/message.grpc.pb.o
+
+# target to build an object file
+home/itxt/TalkHub/protoc/message.grpc.pb.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o
+.PHONY : home/itxt/TalkHub/protoc/message.grpc.pb.cc.o
+
+home/itxt/TalkHub/protoc/message.grpc.pb.i: home/itxt/TalkHub/protoc/message.grpc.pb.cc.i
+.PHONY : home/itxt/TalkHub/protoc/message.grpc.pb.i
+
+# target to preprocess a source file
+home/itxt/TalkHub/protoc/message.grpc.pb.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.i
+.PHONY : home/itxt/TalkHub/protoc/message.grpc.pb.cc.i
+
+home/itxt/TalkHub/protoc/message.grpc.pb.s: home/itxt/TalkHub/protoc/message.grpc.pb.cc.s
+.PHONY : home/itxt/TalkHub/protoc/message.grpc.pb.s
+
+# target to generate assembly for a file
+home/itxt/TalkHub/protoc/message.grpc.pb.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.s
+.PHONY : home/itxt/TalkHub/protoc/message.grpc.pb.cc.s
+
+home/itxt/TalkHub/protoc/message.pb.o: home/itxt/TalkHub/protoc/message.pb.cc.o
+.PHONY : home/itxt/TalkHub/protoc/message.pb.o
+
+# target to build an object file
+home/itxt/TalkHub/protoc/message.pb.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/home/itxt/TalkHub/protoc/message.pb.cc.o
+.PHONY : home/itxt/TalkHub/protoc/message.pb.cc.o
+
+home/itxt/TalkHub/protoc/message.pb.i: home/itxt/TalkHub/protoc/message.pb.cc.i
+.PHONY : home/itxt/TalkHub/protoc/message.pb.i
+
+# target to preprocess a source file
+home/itxt/TalkHub/protoc/message.pb.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/home/itxt/TalkHub/protoc/message.pb.cc.i
+.PHONY : home/itxt/TalkHub/protoc/message.pb.cc.i
+
+home/itxt/TalkHub/protoc/message.pb.s: home/itxt/TalkHub/protoc/message.pb.cc.s
+.PHONY : home/itxt/TalkHub/protoc/message.pb.s
+
+# target to generate assembly for a file
+home/itxt/TalkHub/protoc/message.pb.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/home/itxt/TalkHub/protoc/message.pb.cc.s
+.PHONY : home/itxt/TalkHub/protoc/message.pb.cc.s
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatServer.dir/build.make CMakeFiles/ChatServer.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -142,7 +430,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatServer.dir/build.make CMakeFiles/ChatServer.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,7 +438,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChatServer.dir/build.make CMakeFiles/ChatServer.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chatserver.dir/build.make CMakeFiles/chatserver.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -161,7 +449,43 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ChatServer"
+	@echo "... chatserver"
+	@echo "... ChatGrpcClient/ChatGrpcClient.o"
+	@echo "... ChatGrpcClient/ChatGrpcClient.i"
+	@echo "... ChatGrpcClient/ChatGrpcClient.s"
+	@echo "... ChatServer/ChatServer.o"
+	@echo "... ChatServer/ChatServer.i"
+	@echo "... ChatServer/ChatServer.s"
+	@echo "... ChatServiceImpl/ChatServiceImpl.o"
+	@echo "... ChatServiceImpl/ChatServiceImpl.i"
+	@echo "... ChatServiceImpl/ChatServiceImpl.s"
+	@echo "... MessageHandler/IMessageHandler.o"
+	@echo "... MessageHandler/IMessageHandler.i"
+	@echo "... MessageHandler/IMessageHandler.s"
+	@echo "... UserMgr/UserMgr.o"
+	@echo "... UserMgr/UserMgr.i"
+	@echo "... UserMgr/UserMgr.s"
+	@echo "... home/itxt/TalkHub/Config/ConfigMgr.o"
+	@echo "... home/itxt/TalkHub/Config/ConfigMgr.i"
+	@echo "... home/itxt/TalkHub/Config/ConfigMgr.s"
+	@echo "... home/itxt/TalkHub/MysqlMgr/MysqlDao.o"
+	@echo "... home/itxt/TalkHub/MysqlMgr/MysqlDao.i"
+	@echo "... home/itxt/TalkHub/MysqlMgr/MysqlDao.s"
+	@echo "... home/itxt/TalkHub/MysqlMgr/MysqlMgr.o"
+	@echo "... home/itxt/TalkHub/MysqlMgr/MysqlMgr.i"
+	@echo "... home/itxt/TalkHub/MysqlMgr/MysqlMgr.s"
+	@echo "... home/itxt/TalkHub/RedisMgr/RedisMgr.o"
+	@echo "... home/itxt/TalkHub/RedisMgr/RedisMgr.i"
+	@echo "... home/itxt/TalkHub/RedisMgr/RedisMgr.s"
+	@echo "... home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.o"
+	@echo "... home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.i"
+	@echo "... home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.s"
+	@echo "... home/itxt/TalkHub/protoc/message.grpc.pb.o"
+	@echo "... home/itxt/TalkHub/protoc/message.grpc.pb.i"
+	@echo "... home/itxt/TalkHub/protoc/message.grpc.pb.s"
+	@echo "... home/itxt/TalkHub/protoc/message.pb.o"
+	@echo "... home/itxt/TalkHub/protoc/message.pb.i"
+	@echo "... home/itxt/TalkHub/protoc/message.pb.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

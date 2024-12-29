@@ -477,8 +477,8 @@ CMakeFiles/StatusServer.dir/StatusServiceImpl.cpp.o: \
  /usr/local/include/grpcpp/security/authorization_policy_provider.h \
  /usr/local/include/grpcpp/server_posix.h \
  /usr/local/include/grpcpp/version_info.h \
- /home/itxt/TalkHub/StatusServer/protoc/message.grpc.pb.h \
- /home/itxt/TalkHub/StatusServer/protoc/message.pb.h \
+ /home/itxt/TalkHub/StatusServer/../protoc/message.grpc.pb.h \
+ /home/itxt/TalkHub/StatusServer/../protoc/message.pb.h \
  /usr/local/include/google/protobuf/runtime_version.h \
  /usr/local/include/google/protobuf/io/coded_stream.h \
  /usr/local/include/google/protobuf/stubs/common.h \

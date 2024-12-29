@@ -97,33 +97,33 @@ CMakeFiles/StatusServer.dir/StatusServiceImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StatusServer.dir/StatusServiceImpl.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/StatusServer/StatusServiceImpl.cpp -o CMakeFiles/StatusServer.dir/StatusServiceImpl.cpp.s
 
-CMakeFiles/StatusServer.dir/protoc/message.pb.cc.o: CMakeFiles/StatusServer.dir/flags.make
-CMakeFiles/StatusServer.dir/protoc/message.pb.cc.o: ../protoc/message.pb.cc
-CMakeFiles/StatusServer.dir/protoc/message.pb.cc.o: CMakeFiles/StatusServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/StatusServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/StatusServer.dir/protoc/message.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StatusServer.dir/protoc/message.pb.cc.o -MF CMakeFiles/StatusServer.dir/protoc/message.pb.cc.o.d -o CMakeFiles/StatusServer.dir/protoc/message.pb.cc.o -c /home/itxt/TalkHub/StatusServer/protoc/message.pb.cc
+CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o: CMakeFiles/StatusServer.dir/flags.make
+CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o: /home/itxt/TalkHub/protoc/message.pb.cc
+CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o: CMakeFiles/StatusServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/StatusServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o -MF CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o.d -o CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o -c /home/itxt/TalkHub/protoc/message.pb.cc
 
-CMakeFiles/StatusServer.dir/protoc/message.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StatusServer.dir/protoc/message.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/StatusServer/protoc/message.pb.cc > CMakeFiles/StatusServer.dir/protoc/message.pb.cc.i
+CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/protoc/message.pb.cc > CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.i
 
-CMakeFiles/StatusServer.dir/protoc/message.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StatusServer.dir/protoc/message.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/StatusServer/protoc/message.pb.cc -o CMakeFiles/StatusServer.dir/protoc/message.pb.cc.s
+CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/protoc/message.pb.cc -o CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.s
 
-CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.o: CMakeFiles/StatusServer.dir/flags.make
-CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.o: ../protoc/message.grpc.pb.cc
-CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.o: CMakeFiles/StatusServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/StatusServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.o -MF CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.o.d -o CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.o -c /home/itxt/TalkHub/StatusServer/protoc/message.grpc.pb.cc
+CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o: CMakeFiles/StatusServer.dir/flags.make
+CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o: /home/itxt/TalkHub/protoc/message.grpc.pb.cc
+CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o: CMakeFiles/StatusServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/StatusServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o -MF CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o.d -o CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o -c /home/itxt/TalkHub/protoc/message.grpc.pb.cc
 
-CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/StatusServer/protoc/message.grpc.pb.cc > CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.i
+CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/protoc/message.grpc.pb.cc > CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.i
 
-CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/StatusServer/protoc/message.grpc.pb.cc -o CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.s
+CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/protoc/message.grpc.pb.cc -o CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.s
 
 CMakeFiles/StatusServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o: CMakeFiles/StatusServer.dir/flags.make
 CMakeFiles/StatusServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o: /home/itxt/TalkHub/Config/ConfigMgr.cpp
@@ -157,8 +157,8 @@ CMakeFiles/StatusServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.s: cmake_for
 StatusServer_OBJECTS = \
 "CMakeFiles/StatusServer.dir/StatusServer.cpp.o" \
 "CMakeFiles/StatusServer.dir/StatusServiceImpl.cpp.o" \
-"CMakeFiles/StatusServer.dir/protoc/message.pb.cc.o" \
-"CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.o" \
+"CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o" \
+"CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o" \
 "CMakeFiles/StatusServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o" \
 "CMakeFiles/StatusServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o"
 
@@ -167,8 +167,8 @@ StatusServer_EXTERNAL_OBJECTS =
 
 ../StatusServer: CMakeFiles/StatusServer.dir/StatusServer.cpp.o
 ../StatusServer: CMakeFiles/StatusServer.dir/StatusServiceImpl.cpp.o
-../StatusServer: CMakeFiles/StatusServer.dir/protoc/message.pb.cc.o
-../StatusServer: CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.o
+../StatusServer: CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o
+../StatusServer: CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o
 ../StatusServer: CMakeFiles/StatusServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o
 ../StatusServer: CMakeFiles/StatusServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o
 ../StatusServer: CMakeFiles/StatusServer.dir/build.make

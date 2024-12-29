@@ -58,10 +58,10 @@ AsioIOServicePool/AsioIOServicePool.cpp
 )
 
 set(MysqlDao
-MysqlMgr/MysqlDao.h
-MysqlMgr/MysqlDao.cpp
-MysqlMgr/MysqlMgr.h
-MysqlMgr/MysqlMgr.cpp
+../MysqlMgr/MysqlDao.h
+../MysqlMgr/MysqlDao.cpp
+../MysqlMgr/MysqlMgr.h
+../MysqlMgr/MysqlMgr.cpp
 )
 
 set(LogicSystem
@@ -70,10 +70,10 @@ LogicSystem/LogicSystem.cpp
 )
 
 set(protoc
-    protoc/message.grpc.pb.cc
-    protoc/message.grpc.pb.h
-    protoc/message.pb.h
-    protoc/message.pb.cc
+    ../protoc/message.grpc.pb.cc
+    ../protoc/message.grpc.pb.h
+    ../protoc/message.pb.h
+    ../protoc/message.pb.cc
 )
 
 set(RedisMgr
@@ -82,7 +82,7 @@ set(RedisMgr
 )
 
 set(StatusClient
-StatusGrpcClient/StatusGrpcClient.cpp
+../StatusGrpcClient/StatusGrpcClient.cpp
 )
 
 add_executable(GateServer 

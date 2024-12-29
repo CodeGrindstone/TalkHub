@@ -139,33 +139,33 @@ CMakeFiles/GateServer.dir/AsioIOServicePool/AsioIOServicePool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GateServer.dir/AsioIOServicePool/AsioIOServicePool.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/GateServer/AsioIOServicePool/AsioIOServicePool.cpp -o CMakeFiles/GateServer.dir/AsioIOServicePool/AsioIOServicePool.cpp.s
 
-CMakeFiles/GateServer.dir/MysqlMgr/MysqlDao.cpp.o: CMakeFiles/GateServer.dir/flags.make
-CMakeFiles/GateServer.dir/MysqlMgr/MysqlDao.cpp.o: ../MysqlMgr/MysqlDao.cpp
-CMakeFiles/GateServer.dir/MysqlMgr/MysqlDao.cpp.o: CMakeFiles/GateServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/GateServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GateServer.dir/MysqlMgr/MysqlDao.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GateServer.dir/MysqlMgr/MysqlDao.cpp.o -MF CMakeFiles/GateServer.dir/MysqlMgr/MysqlDao.cpp.o.d -o CMakeFiles/GateServer.dir/MysqlMgr/MysqlDao.cpp.o -c /home/itxt/TalkHub/GateServer/MysqlMgr/MysqlDao.cpp
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.o: CMakeFiles/GateServer.dir/flags.make
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.o: /home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.o: CMakeFiles/GateServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/GateServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.o -MF CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.o.d -o CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.o -c /home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp
 
-CMakeFiles/GateServer.dir/MysqlMgr/MysqlDao.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GateServer.dir/MysqlMgr/MysqlDao.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/GateServer/MysqlMgr/MysqlDao.cpp > CMakeFiles/GateServer.dir/MysqlMgr/MysqlDao.cpp.i
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp > CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.i
 
-CMakeFiles/GateServer.dir/MysqlMgr/MysqlDao.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GateServer.dir/MysqlMgr/MysqlDao.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/GateServer/MysqlMgr/MysqlDao.cpp -o CMakeFiles/GateServer.dir/MysqlMgr/MysqlDao.cpp.s
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp -o CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.s
 
-CMakeFiles/GateServer.dir/MysqlMgr/MysqlMgr.cpp.o: CMakeFiles/GateServer.dir/flags.make
-CMakeFiles/GateServer.dir/MysqlMgr/MysqlMgr.cpp.o: ../MysqlMgr/MysqlMgr.cpp
-CMakeFiles/GateServer.dir/MysqlMgr/MysqlMgr.cpp.o: CMakeFiles/GateServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/GateServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/GateServer.dir/MysqlMgr/MysqlMgr.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GateServer.dir/MysqlMgr/MysqlMgr.cpp.o -MF CMakeFiles/GateServer.dir/MysqlMgr/MysqlMgr.cpp.o.d -o CMakeFiles/GateServer.dir/MysqlMgr/MysqlMgr.cpp.o -c /home/itxt/TalkHub/GateServer/MysqlMgr/MysqlMgr.cpp
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.o: CMakeFiles/GateServer.dir/flags.make
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.o: /home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.o: CMakeFiles/GateServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/GateServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.o -MF CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.o.d -o CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.o -c /home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp
 
-CMakeFiles/GateServer.dir/MysqlMgr/MysqlMgr.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GateServer.dir/MysqlMgr/MysqlMgr.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/GateServer/MysqlMgr/MysqlMgr.cpp > CMakeFiles/GateServer.dir/MysqlMgr/MysqlMgr.cpp.i
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp > CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.i
 
-CMakeFiles/GateServer.dir/MysqlMgr/MysqlMgr.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GateServer.dir/MysqlMgr/MysqlMgr.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/GateServer/MysqlMgr/MysqlMgr.cpp -o CMakeFiles/GateServer.dir/MysqlMgr/MysqlMgr.cpp.s
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp -o CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.s
 
 CMakeFiles/GateServer.dir/LogicSystem/LogicSystem.cpp.o: CMakeFiles/GateServer.dir/flags.make
 CMakeFiles/GateServer.dir/LogicSystem/LogicSystem.cpp.o: ../LogicSystem/LogicSystem.cpp
@@ -181,33 +181,33 @@ CMakeFiles/GateServer.dir/LogicSystem/LogicSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GateServer.dir/LogicSystem/LogicSystem.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/GateServer/LogicSystem/LogicSystem.cpp -o CMakeFiles/GateServer.dir/LogicSystem/LogicSystem.cpp.s
 
-CMakeFiles/GateServer.dir/protoc/message.grpc.pb.cc.o: CMakeFiles/GateServer.dir/flags.make
-CMakeFiles/GateServer.dir/protoc/message.grpc.pb.cc.o: ../protoc/message.grpc.pb.cc
-CMakeFiles/GateServer.dir/protoc/message.grpc.pb.cc.o: CMakeFiles/GateServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/GateServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/GateServer.dir/protoc/message.grpc.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GateServer.dir/protoc/message.grpc.pb.cc.o -MF CMakeFiles/GateServer.dir/protoc/message.grpc.pb.cc.o.d -o CMakeFiles/GateServer.dir/protoc/message.grpc.pb.cc.o -c /home/itxt/TalkHub/GateServer/protoc/message.grpc.pb.cc
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o: CMakeFiles/GateServer.dir/flags.make
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o: /home/itxt/TalkHub/protoc/message.grpc.pb.cc
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o: CMakeFiles/GateServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/GateServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o -MF CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o.d -o CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o -c /home/itxt/TalkHub/protoc/message.grpc.pb.cc
 
-CMakeFiles/GateServer.dir/protoc/message.grpc.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GateServer.dir/protoc/message.grpc.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/GateServer/protoc/message.grpc.pb.cc > CMakeFiles/GateServer.dir/protoc/message.grpc.pb.cc.i
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/protoc/message.grpc.pb.cc > CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.i
 
-CMakeFiles/GateServer.dir/protoc/message.grpc.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GateServer.dir/protoc/message.grpc.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/GateServer/protoc/message.grpc.pb.cc -o CMakeFiles/GateServer.dir/protoc/message.grpc.pb.cc.s
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/protoc/message.grpc.pb.cc -o CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.s
 
-CMakeFiles/GateServer.dir/protoc/message.pb.cc.o: CMakeFiles/GateServer.dir/flags.make
-CMakeFiles/GateServer.dir/protoc/message.pb.cc.o: ../protoc/message.pb.cc
-CMakeFiles/GateServer.dir/protoc/message.pb.cc.o: CMakeFiles/GateServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/GateServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/GateServer.dir/protoc/message.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GateServer.dir/protoc/message.pb.cc.o -MF CMakeFiles/GateServer.dir/protoc/message.pb.cc.o.d -o CMakeFiles/GateServer.dir/protoc/message.pb.cc.o -c /home/itxt/TalkHub/GateServer/protoc/message.pb.cc
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o: CMakeFiles/GateServer.dir/flags.make
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o: /home/itxt/TalkHub/protoc/message.pb.cc
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o: CMakeFiles/GateServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/GateServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o -MF CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o.d -o CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o -c /home/itxt/TalkHub/protoc/message.pb.cc
 
-CMakeFiles/GateServer.dir/protoc/message.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GateServer.dir/protoc/message.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/GateServer/protoc/message.pb.cc > CMakeFiles/GateServer.dir/protoc/message.pb.cc.i
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/protoc/message.pb.cc > CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.i
 
-CMakeFiles/GateServer.dir/protoc/message.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GateServer.dir/protoc/message.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/GateServer/protoc/message.pb.cc -o CMakeFiles/GateServer.dir/protoc/message.pb.cc.s
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/protoc/message.pb.cc -o CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.s
 
 CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o: CMakeFiles/GateServer.dir/flags.make
 CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o: /home/itxt/TalkHub/RedisMgr/RedisMgr.cpp
@@ -223,19 +223,19 @@ CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/RedisMgr/RedisMgr.cpp -o CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.s
 
-CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o: CMakeFiles/GateServer.dir/flags.make
-CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o: ../StatusGrpcClient/StatusGrpcClient.cpp
-CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o: CMakeFiles/GateServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/GateServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o -MF CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o.d -o CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o -c /home/itxt/TalkHub/GateServer/StatusGrpcClient/StatusGrpcClient.cpp
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.o: CMakeFiles/GateServer.dir/flags.make
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.o: /home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.o: CMakeFiles/GateServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itxt/TalkHub/GateServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/GateServer.dir/home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GateServer.dir/home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.o -MF CMakeFiles/GateServer.dir/home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.o.d -o CMakeFiles/GateServer.dir/home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.o -c /home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp
 
-CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/GateServer/StatusGrpcClient/StatusGrpcClient.cpp > CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.i
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GateServer.dir/home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp > CMakeFiles/GateServer.dir/home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.i
 
-CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/GateServer/StatusGrpcClient/StatusGrpcClient.cpp -o CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.s
+CMakeFiles/GateServer.dir/home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GateServer.dir/home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp -o CMakeFiles/GateServer.dir/home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.s
 
 # Object files for target GateServer
 GateServer_OBJECTS = \
@@ -244,13 +244,13 @@ GateServer_OBJECTS = \
 "CMakeFiles/GateServer.dir/CServer/CServer.cpp.o" \
 "CMakeFiles/GateServer.dir/HttpConn/HttpConn.cpp.o" \
 "CMakeFiles/GateServer.dir/AsioIOServicePool/AsioIOServicePool.cpp.o" \
-"CMakeFiles/GateServer.dir/MysqlMgr/MysqlDao.cpp.o" \
-"CMakeFiles/GateServer.dir/MysqlMgr/MysqlMgr.cpp.o" \
+"CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.o" \
+"CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.o" \
 "CMakeFiles/GateServer.dir/LogicSystem/LogicSystem.cpp.o" \
-"CMakeFiles/GateServer.dir/protoc/message.grpc.pb.cc.o" \
-"CMakeFiles/GateServer.dir/protoc/message.pb.cc.o" \
+"CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o" \
+"CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o" \
 "CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o" \
-"CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o"
+"CMakeFiles/GateServer.dir/home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.o"
 
 # External object files for target GateServer
 GateServer_EXTERNAL_OBJECTS =
@@ -260,13 +260,13 @@ GateServer_EXTERNAL_OBJECTS =
 ../GateServer: CMakeFiles/GateServer.dir/CServer/CServer.cpp.o
 ../GateServer: CMakeFiles/GateServer.dir/HttpConn/HttpConn.cpp.o
 ../GateServer: CMakeFiles/GateServer.dir/AsioIOServicePool/AsioIOServicePool.cpp.o
-../GateServer: CMakeFiles/GateServer.dir/MysqlMgr/MysqlDao.cpp.o
-../GateServer: CMakeFiles/GateServer.dir/MysqlMgr/MysqlMgr.cpp.o
+../GateServer: CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlDao.cpp.o
+../GateServer: CMakeFiles/GateServer.dir/home/itxt/TalkHub/MysqlMgr/MysqlMgr.cpp.o
 ../GateServer: CMakeFiles/GateServer.dir/LogicSystem/LogicSystem.cpp.o
-../GateServer: CMakeFiles/GateServer.dir/protoc/message.grpc.pb.cc.o
-../GateServer: CMakeFiles/GateServer.dir/protoc/message.pb.cc.o
+../GateServer: CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o
+../GateServer: CMakeFiles/GateServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o
 ../GateServer: CMakeFiles/GateServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o
-../GateServer: CMakeFiles/GateServer.dir/StatusGrpcClient/StatusGrpcClient.cpp.o
+../GateServer: CMakeFiles/GateServer.dir/home/itxt/TalkHub/StatusGrpcClient/StatusGrpcClient.cpp.o
 ../GateServer: CMakeFiles/GateServer.dir/build.make
 ../GateServer: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.74.0
 ../GateServer: /usr/local/lib/libgrpc++.a

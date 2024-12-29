@@ -99,27 +99,28 @@ CMakeFiles/GateServer.dir/HttpConn/HttpConn.cpp.o: \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/stl_tempbuf.h \
- /usr/include/c++/11/bits/uniform_int_dist.h \
- /home/itxt/TalkHub/GateServer/HttpConn/../LogicSystem/LogicSystem.h \
- /home/itxt/TalkHub/GateServer/HttpConn/../LogicSystem/../Singleton.h \
- /usr/include/c++/11/memory \
- /usr/include/c++/11/bits/stl_raw_storage_iter.h \
- /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
+ /usr/include/c++/11/bits/uniform_int_dist.h /usr/include/c++/11/string \
+ /usr/include/c++/11/bits/stringfwd.h \
+ /usr/include/c++/11/bits/char_traits.h \
+ /usr/include/c++/11/bits/postypes.h /usr/include/c++/11/cwchar \
+ /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/c++/11/bits/unique_ptr.h \
- /usr/include/c++/11/bits/shared_ptr.h /usr/include/c++/11/iosfwd \
- /usr/include/c++/11/bits/stringfwd.h /usr/include/c++/11/bits/postypes.h \
- /usr/include/c++/11/cwchar /usr/include/wchar.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
- /usr/include/c++/11/bits/shared_ptr_base.h \
- /usr/include/c++/11/bits/allocated_ptr.h \
+ /usr/include/c++/11/cstdint \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/c++/11/bits/localefwd.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+ /usr/include/c++/11/clocale /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/11/iosfwd \
+ /usr/include/c++/11/cctype /usr/include/ctype.h \
+ /usr/include/c++/11/bits/ostream_insert.h \
+ /usr/include/c++/11/bits/cxxabi_forced.h \
+ /usr/include/c++/11/bits/basic_string.h \
  /usr/include/c++/11/ext/atomicity.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
@@ -136,6 +137,29 @@ CMakeFiles/GateServer.dir/HttpConn/HttpConn.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+ /usr/include/c++/11/string_view /usr/include/c++/11/bits/string_view.tcc \
+ /usr/include/c++/11/ext/string_conversions.h /usr/include/c++/11/cstdio \
+ /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/c++/11/cerrno /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+ /usr/include/c++/11/bits/charconv.h \
+ /usr/include/c++/11/bits/basic_string.tcc \
+ /home/itxt/TalkHub/GateServer/HttpConn/../LogicSystem/LogicSystem.h \
+ /home/itxt/TalkHub/GateServer/HttpConn/../LogicSystem/../Singleton.h \
+ /usr/include/c++/11/memory \
+ /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
+ /usr/include/c++/11/bits/unique_ptr.h \
+ /usr/include/c++/11/bits/shared_ptr.h \
+ /usr/include/c++/11/bits/shared_ptr_base.h \
+ /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/ext/concurrence.h /usr/include/c++/11/exception \
  /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
@@ -147,34 +171,11 @@ CMakeFiles/GateServer.dir/HttpConn/HttpConn.cpp.o: \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h /usr/include/c++/11/mutex \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
- /usr/include/c++/11/cstdint /usr/include/c++/11/limits \
- /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
+ /usr/include/c++/11/limits /usr/include/c++/11/ctime \
+ /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/system_error \
  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
- /usr/include/c++/11/cerrno /usr/include/errno.h \
- /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/x86_64-linux-gnu/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
- /usr/include/c++/11/stdexcept /usr/include/c++/11/string \
- /usr/include/c++/11/bits/char_traits.h \
- /usr/include/c++/11/bits/localefwd.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
- /usr/include/c++/11/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/11/cctype \
- /usr/include/ctype.h /usr/include/c++/11/bits/ostream_insert.h \
- /usr/include/c++/11/bits/cxxabi_forced.h \
- /usr/include/c++/11/bits/basic_string.h /usr/include/c++/11/string_view \
- /usr/include/c++/11/bits/string_view.tcc \
- /usr/include/c++/11/ext/string_conversions.h /usr/include/c++/11/cstdio \
- /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
- /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /usr/include/c++/11/bits/charconv.h \
- /usr/include/c++/11/bits/basic_string.tcc \
- /usr/include/c++/11/bits/std_mutex.h \
+ /usr/include/c++/11/stdexcept /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h /usr/include/c++/11/iostream \
  /usr/include/c++/11/ostream /usr/include/c++/11/ios \
  /usr/include/c++/11/bits/ios_base.h \
@@ -821,14 +822,44 @@ CMakeFiles/GateServer.dir/HttpConn/HttpConn.cpp.o: \
  /usr/include/boost/property_tree/detail/ptree_implementation.hpp \
  /usr/include/boost/property_tree/ini_parser.hpp \
  /usr/include/boost/property_tree/detail/file_parser_error.hpp \
+ /home/itxt/TalkHub/GateServer/HttpConn/../LogicSystem/../../RedisMgr/../MysqlMgr/MysqlMgr.h \
+ /usr/local/include/json/json.h /usr/local/include/json/config.h \
+ /usr/local/include/json/allocator.h /usr/local/include/json/version.h \
+ /usr/local/include/json/json_features.h \
+ /usr/local/include/json/forwards.h /usr/local/include/json/reader.h \
+ /usr/local/include/json/value.h /usr/include/c++/11/deque \
+ /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
+ /usr/include/c++/11/stack /usr/include/c++/11/bits/stl_stack.h \
+ /usr/local/include/json/writer.h /usr/local/include/json/value.h \
+ /home/itxt/TalkHub/GateServer/HttpConn/../LogicSystem/../../RedisMgr/../MysqlMgr/MysqlDao.h \
+ /usr/local/include/mysql_driver.h /usr/local/include/cppconn/driver.h \
+ /usr/local/include/cppconn/connection.h \
+ /usr/local/include/cppconn/build_config.h \
+ /usr/local/include/cppconn/warning.h \
+ /usr/local/include/cppconn/sqlstring.h \
+ /usr/local/include/cppconn/variant.h \
+ /usr/local/include/cppconn/exception.h \
+ /usr/local/include/cppconn/callback.h \
+ /usr/local/include/mysql_connection.h \
+ /usr/local/include/cppconn/connection.h \
+ /usr/local/include/cppconn/resultset.h \
+ /usr/local/include/cppconn/config.h /usr/include/inttypes.h \
+ /usr/local/include/cppconn/resultset_metadata.h \
+ /usr/local/include/cppconn/datatype.h \
+ /usr/local/include/cppconn/connection.h \
+ /usr/local/include/cppconn/exception.h \
+ /usr/local/include/cppconn/prepared_statement.h \
+ /usr/local/include/cppconn/statement.h \
+ /usr/local/include/cppconn/resultset.h /usr/include/c++/11/queue \
+ /usr/include/c++/11/bits/stl_queue.h \
+ /usr/include/c++/11/condition_variable /usr/include/c++/11/atomic \
+ /home/itxt/TalkHub/GateServer/HttpConn/../LogicSystem/../../RedisMgr/../MysqlMgr/../Singleton.h \
  /usr/include/hiredis/hiredis.h /usr/include/hiredis/read.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/hiredis/sds.h \
  /usr/include/hiredis/alloc.h /usr/include/c++/11/stdlib.h \
  /usr/local/include/sw/redis++/redis++.h \
  /usr/local/include/sw/redis++/redis.h \
  /usr/local/include/sw/redis++/connection_pool.h \
- /usr/include/c++/11/condition_variable /usr/include/c++/11/deque \
- /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
  /usr/local/include/sw/redis++/connection.h \
  /usr/local/include/sw/redis++/errors.h \
  /usr/local/include/sw/redis++/reply.h \
@@ -882,13 +913,7 @@ CMakeFiles/GateServer.dir/HttpConn/HttpConn.cpp.o: \
  /usr/include/c++/11/unordered_set \
  /usr/include/c++/11/bits/unordered_set.h \
  /usr/local/include/sw/redis++/queued_redis.hpp \
- /usr/local/include/json/reader.h /usr/local/include/json/json_features.h \
- /usr/local/include/json/forwards.h /usr/local/include/json/config.h \
- /usr/local/include/json/allocator.h /usr/local/include/json/version.h \
- /usr/local/include/json/value.h /usr/include/c++/11/stack \
- /usr/include/c++/11/bits/stl_stack.h /usr/local/include/json/value.h \
- /usr/local/include/json/json.h /usr/local/include/json/reader.h \
- /usr/local/include/json/writer.h \
+ /usr/local/include/json/reader.h \
  /home/itxt/TalkHub/GateServer/HttpConn/../CServer/CServer.h \
  /usr/include/boost/beast/http.hpp \
  /usr/include/boost/beast/core/detail/config.hpp \
@@ -1109,7 +1134,6 @@ CMakeFiles/GateServer.dir/HttpConn/HttpConn.cpp.o: \
  /usr/include/boost/asio/execution/execute.hpp \
  /usr/include/boost/asio/execution/detail/as_invocable.hpp \
  /usr/include/boost/asio/detail/atomic_count.hpp \
- /usr/include/c++/11/atomic \
  /usr/include/boost/asio/execution/receiver_invocation_error.hpp \
  /usr/include/boost/asio/execution/impl/receiver_invocation_error.ipp \
  /usr/include/boost/asio/execution/set_done.hpp \

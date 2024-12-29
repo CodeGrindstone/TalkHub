@@ -9,10 +9,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/StatusServer.dir/home/itxt/TalkHub/Config/ConfigMgr.cpp.o.d"
   "CMakeFiles/StatusServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o"
   "CMakeFiles/StatusServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o.d"
-  "CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.o"
-  "CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.o.d"
-  "CMakeFiles/StatusServer.dir/protoc/message.pb.cc.o"
-  "CMakeFiles/StatusServer.dir/protoc/message.pb.cc.o.d"
+  "CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o"
+  "CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o.d"
+  "CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o"
+  "CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

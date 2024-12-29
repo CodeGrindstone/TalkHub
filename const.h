@@ -2,7 +2,9 @@
 
 
 #include <functional>
-
+#include <string>
+#include <vector>
+#include <unordered_map>
 
 // Defer类
 class Defer {
@@ -19,11 +21,28 @@ private:
     std::function<void()> func_;
 };
 
+enum ReqId{
+    ID_CHAT_LOGIN = 1005,       //登陆聊天服务器
+    ID_CHAT_LOGIN_RSP = 1006,   //登陆聊天服务器回包
+    ID_SEARCH_USER_REQ = 1007,  // 搜索好友
+    ID_SEARCH_USER_RSP = 1008,  // 搜索好友回包
+    ID_ADD_FRIEND_REQ = 1009,   // 添加好友
+    ID_ADD_FRIEND_RSP = 1010,   // 添加好友回包
+    ID_NOTIFY_ADD_FRIEND_REQ = 1011,// 通知客户端有添加好友请求
+    
+    ID_AUTH_FRIEND_REQ = 1013,  //认证好友请求
+    ID_AUTH_FRIEND_RSP = 1014,  //认证好友回复
+    ID_NOTIFY_AUTH_FRIEND_REQ = 1015, //通知用户认证好友申请
+    ID_TEXT_CHAT_MSG_REQ  = 1017,  //文本聊天信息请求
+    ID_TEXT_CHAT_MSG_RSP  = 1018,  //文本聊天信息回复
+    ID_NOTIFY_TEXT_CHAT_MSG_REQ = 1019, //通知用户文本聊天信息
+};
+
 enum ErrorCodes
 {
     // 成功状态
     SUCCESS = 0,                // 操作成功
-
+    ERR_UNKNOWN = 1,            // 未知错误
     // 客户端错误（4xx）
     ERR_NETWORK = 4000,         // 网络错误
     ERR_INVALID_PARAMS,         // 参数错误
@@ -60,24 +79,15 @@ enum ErrorCodes
     ERR_ACCOUNT_LOCKED,         // 账号被锁定
     ERR_TOO_MANY_ATTEMPTS,      // 尝试次数过多
     ERR_TOKEN_INVALID,          // Token 无效
-    ERR_OPERATION_FAILED,       // 操作失败
-    ERR_DUPLICATE_OPERATION,    // 重复操作
-    ERR_PERMISSION_DENIED,      // 无权限执行操作
-    ERR_ACCOUNT_SUSPENDED,      // 账号已暂停
-    ERR_ACCOUNT_EXPIRED,        // 账号已过期
-    ERR_INSUFFICIENT_FUNDS,     // 余额不足（如支付系统）
-    ERR_INVALID_ORDER_STATUS,   // 订单状态无效
-    ERR_DUPLICATE_ORDER,        // 重复订单
-    ERR_PAYMENT_FAILED,         // 支付失败
-    ERR_ITEM_OUT_OF_STOCK,      // 库存不足
-    ERR_SHIPPING_ADDRESS_INVALID, // 收货地址无效
-    ERR_ORDER_NOT_FOUND,        // 订单未找到
-    ERR_ACTION_NOT_ALLOWED,     // 不允许的操作（如禁用某些功能）
-    ERR_RATE_LIMIT_EXCEEDED,    // 超过了操作频率限制（如 API 限制）
-    ERR_FEATURE_NOT_SUPPORTED,  // 功能不支持
-    ERR_MISSING_REQUIRED_FIELD, // 缺少必要字段（如表单提交时）
-    ERR_INVALID_REQUEST,        // 请求无效（比如格式不正确）
-    ERR_UNSUPPORTED_MEDIA_TYPE, // 不支持的媒体类型（如上传文件类型错误）
+    ERR_ALREADY_FRIENDS,        // 用户与目标用户已是好友关系
+    ERR_DUPLICATE_REQUEST,	    //存在重复的好友请求
+    ERR_REQUEST_SELF,	        //用户尝试向自己发送好友请求
+    ERR_FRIEND_NOT_FOUND,	    // 目标用户不存在
+    ERR_REQUEST_NOT_FOUND,	    // 好友请求不存在
+    ERR_REQUEST_EXPIRED,	    // 好友请求已过期，无法操作
+    ERR_FRIEND_BLOCKED,	        //目标用户已将当前用户屏蔽
+    ERR_REQUEST_PENDING,	    //存在未处理的好友请求
+ 
 
     // 系统资源错误（7xx）
     ERR_RESOURCE_BUSY = 7000,   // 系统资源忙（例如，数据库锁）
@@ -97,3 +107,21 @@ enum VerifyType
 
 
 #define CODEPREFIX "code_"
+#define LOGIN_COUNT "server_connections"
+
+extern std::string server_name;
+extern std::vector<std::string> peer_server_name;
+
+
+enum Gender{
+    MALE,
+    FEMALE,
+    OTHER
+};
+
+// 定义映射关系
+const std::unordered_map<std::string, Gender> sex_map = {
+    {"male", Gender::MALE},
+    {"female", Gender::FEMALE},
+    {"other", Gender::OTHER}
+};

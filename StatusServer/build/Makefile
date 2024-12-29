@@ -225,53 +225,53 @@ home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StatusServer.dir/build.make CMakeFiles/StatusServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.s
 .PHONY : home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.s
 
-protoc/message.grpc.pb.o: protoc/message.grpc.pb.cc.o
-.PHONY : protoc/message.grpc.pb.o
+home/itxt/TalkHub/protoc/message.grpc.pb.o: home/itxt/TalkHub/protoc/message.grpc.pb.cc.o
+.PHONY : home/itxt/TalkHub/protoc/message.grpc.pb.o
 
 # target to build an object file
-protoc/message.grpc.pb.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StatusServer.dir/build.make CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.o
-.PHONY : protoc/message.grpc.pb.cc.o
+home/itxt/TalkHub/protoc/message.grpc.pb.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StatusServer.dir/build.make CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o
+.PHONY : home/itxt/TalkHub/protoc/message.grpc.pb.cc.o
 
-protoc/message.grpc.pb.i: protoc/message.grpc.pb.cc.i
-.PHONY : protoc/message.grpc.pb.i
+home/itxt/TalkHub/protoc/message.grpc.pb.i: home/itxt/TalkHub/protoc/message.grpc.pb.cc.i
+.PHONY : home/itxt/TalkHub/protoc/message.grpc.pb.i
 
 # target to preprocess a source file
-protoc/message.grpc.pb.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StatusServer.dir/build.make CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.i
-.PHONY : protoc/message.grpc.pb.cc.i
+home/itxt/TalkHub/protoc/message.grpc.pb.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StatusServer.dir/build.make CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.i
+.PHONY : home/itxt/TalkHub/protoc/message.grpc.pb.cc.i
 
-protoc/message.grpc.pb.s: protoc/message.grpc.pb.cc.s
-.PHONY : protoc/message.grpc.pb.s
+home/itxt/TalkHub/protoc/message.grpc.pb.s: home/itxt/TalkHub/protoc/message.grpc.pb.cc.s
+.PHONY : home/itxt/TalkHub/protoc/message.grpc.pb.s
 
 # target to generate assembly for a file
-protoc/message.grpc.pb.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StatusServer.dir/build.make CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.s
-.PHONY : protoc/message.grpc.pb.cc.s
+home/itxt/TalkHub/protoc/message.grpc.pb.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StatusServer.dir/build.make CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.s
+.PHONY : home/itxt/TalkHub/protoc/message.grpc.pb.cc.s
 
-protoc/message.pb.o: protoc/message.pb.cc.o
-.PHONY : protoc/message.pb.o
+home/itxt/TalkHub/protoc/message.pb.o: home/itxt/TalkHub/protoc/message.pb.cc.o
+.PHONY : home/itxt/TalkHub/protoc/message.pb.o
 
 # target to build an object file
-protoc/message.pb.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StatusServer.dir/build.make CMakeFiles/StatusServer.dir/protoc/message.pb.cc.o
-.PHONY : protoc/message.pb.cc.o
+home/itxt/TalkHub/protoc/message.pb.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StatusServer.dir/build.make CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o
+.PHONY : home/itxt/TalkHub/protoc/message.pb.cc.o
 
-protoc/message.pb.i: protoc/message.pb.cc.i
-.PHONY : protoc/message.pb.i
+home/itxt/TalkHub/protoc/message.pb.i: home/itxt/TalkHub/protoc/message.pb.cc.i
+.PHONY : home/itxt/TalkHub/protoc/message.pb.i
 
 # target to preprocess a source file
-protoc/message.pb.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StatusServer.dir/build.make CMakeFiles/StatusServer.dir/protoc/message.pb.cc.i
-.PHONY : protoc/message.pb.cc.i
+home/itxt/TalkHub/protoc/message.pb.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StatusServer.dir/build.make CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.i
+.PHONY : home/itxt/TalkHub/protoc/message.pb.cc.i
 
-protoc/message.pb.s: protoc/message.pb.cc.s
-.PHONY : protoc/message.pb.s
+home/itxt/TalkHub/protoc/message.pb.s: home/itxt/TalkHub/protoc/message.pb.cc.s
+.PHONY : home/itxt/TalkHub/protoc/message.pb.s
 
 # target to generate assembly for a file
-protoc/message.pb.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StatusServer.dir/build.make CMakeFiles/StatusServer.dir/protoc/message.pb.cc.s
-.PHONY : protoc/message.pb.cc.s
+home/itxt/TalkHub/protoc/message.pb.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StatusServer.dir/build.make CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.s
+.PHONY : home/itxt/TalkHub/protoc/message.pb.cc.s
 
 # Help Target
 help:
@@ -294,12 +294,12 @@ help:
 	@echo "... home/itxt/TalkHub/RedisMgr/RedisMgr.o"
 	@echo "... home/itxt/TalkHub/RedisMgr/RedisMgr.i"
 	@echo "... home/itxt/TalkHub/RedisMgr/RedisMgr.s"
-	@echo "... protoc/message.grpc.pb.o"
-	@echo "... protoc/message.grpc.pb.i"
-	@echo "... protoc/message.grpc.pb.s"
-	@echo "... protoc/message.pb.o"
-	@echo "... protoc/message.pb.i"
-	@echo "... protoc/message.pb.s"
+	@echo "... home/itxt/TalkHub/protoc/message.grpc.pb.o"
+	@echo "... home/itxt/TalkHub/protoc/message.grpc.pb.i"
+	@echo "... home/itxt/TalkHub/protoc/message.grpc.pb.s"
+	@echo "... home/itxt/TalkHub/protoc/message.pb.o"
+	@echo "... home/itxt/TalkHub/protoc/message.pb.i"
+	@echo "... home/itxt/TalkHub/protoc/message.pb.s"
 .PHONY : help
 
 

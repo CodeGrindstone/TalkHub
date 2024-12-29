@@ -1933,8 +1933,8 @@ CMakeFiles/StatusServer.dir/StatusServer.cpp.o: ../StatusServer.cpp \
   /usr/local/include/grpcpp/security/authorization_policy_provider.h \
   /usr/local/include/grpcpp/server_posix.h \
   /usr/local/include/grpcpp/version_info.h \
-  ../protoc/message.grpc.pb.h \
-  ../protoc/message.pb.h \
+  /home/itxt/TalkHub/protoc/message.grpc.pb.h \
+  /home/itxt/TalkHub/protoc/message.pb.h \
   /usr/local/include/google/protobuf/runtime_version.h \
   /usr/local/include/google/protobuf/io/coded_stream.h \
   /usr/local/include/google/protobuf/stubs/common.h \
@@ -2644,8 +2644,8 @@ CMakeFiles/StatusServer.dir/StatusServiceImpl.cpp.o: ../StatusServiceImpl.cpp \
   /usr/local/include/grpcpp/security/authorization_policy_provider.h \
   /usr/local/include/grpcpp/server_posix.h \
   /usr/local/include/grpcpp/version_info.h \
-  ../protoc/message.grpc.pb.h \
-  ../protoc/message.pb.h \
+  /home/itxt/TalkHub/protoc/message.grpc.pb.h \
+  /home/itxt/TalkHub/protoc/message.pb.h \
   /usr/local/include/google/protobuf/runtime_version.h \
   /usr/local/include/google/protobuf/io/coded_stream.h \
   /usr/local/include/google/protobuf/stubs/common.h \
@@ -4714,13 +4714,29 @@ CMakeFiles/StatusServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o: /home/itx
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
+  /home/itxt/TalkHub/const.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
   /home/itxt/TalkHub/Config/ConfigMgr.h \
   /usr/include/c++/11/map \
   /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/node_handle.h \
   /usr/include/c++/11/bits/stl_map.h \
   /usr/include/c++/11/bits/stl_multimap.h \
-  /usr/include/c++/11/bits/erase_if.h \
   /usr/include/boost/filesystem.hpp \
   /usr/include/boost/filesystem/config.hpp \
   /usr/include/boost/config.hpp \
@@ -4766,21 +4782,6 @@ CMakeFiles/StatusServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o: /home/itx
   /usr/include/boost/system/error_code.hpp \
   /usr/include/boost/system/detail/config.hpp \
   /usr/include/boost/cstdint.hpp \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/vector \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/vector.tcc \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
@@ -5482,9 +5483,9 @@ CMakeFiles/StatusServer.dir/home/itxt/TalkHub/RedisMgr/RedisMgr.cpp.o: /home/itx
   /usr/include/c++/11/bits/unordered_set.h \
   /usr/local/include/sw/redis++/queued_redis.hpp
 
-CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.o: ../protoc/message.grpc.pb.cc \
+CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.grpc.pb.cc.o: /home/itxt/TalkHub/protoc/message.grpc.pb.cc \
   /usr/include/stdc-predef.h \
-  ../protoc/message.pb.h \
+  /home/itxt/TalkHub/protoc/message.pb.h \
   /usr/include/c++/11/limits \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -5996,7 +5997,7 @@ CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.o: ../protoc/message.grpc.
   /usr/local/include/google/protobuf/map.h \
   /usr/local/include/google/protobuf/map_type_handler.h \
   /usr/local/include/google/protobuf/reflection.h \
-  ../protoc/message.grpc.pb.h \
+  /home/itxt/TalkHub/protoc/message.grpc.pb.h \
   /usr/local/include/grpcpp/generic/async_generic_service.h \
   /usr/local/include/grpc/support/port_platform.h \
   /usr/include/linux/version.h \
@@ -6094,9 +6095,9 @@ CMakeFiles/StatusServer.dir/protoc/message.grpc.pb.cc.o: ../protoc/message.grpc.
   /usr/local/include/grpcpp/support/stub_options.h \
   /usr/local/include/grpcpp/impl/client_unary_call.h
 
-CMakeFiles/StatusServer.dir/protoc/message.pb.cc.o: ../protoc/message.pb.cc \
+CMakeFiles/StatusServer.dir/home/itxt/TalkHub/protoc/message.pb.cc.o: /home/itxt/TalkHub/protoc/message.pb.cc \
   /usr/include/stdc-predef.h \
-  ../protoc/message.pb.h \
+  /home/itxt/TalkHub/protoc/message.pb.h \
   /usr/include/c++/11/limits \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -6878,6 +6879,8 @@ CMakeFiles/StatusServer.dir/protoc/message.pb.cc.o: ../protoc/message.pb.cc \
 
 /usr/local/include/google/protobuf/io/coded_stream.h:
 
+/home/itxt/TalkHub/protoc/message.grpc.pb.h:
+
 /usr/local/include/grpcpp/version_info.h:
 
 /usr/local/include/grpc/support/workaround_list.h:
@@ -7140,6 +7143,8 @@ CMakeFiles/StatusServer.dir/protoc/message.pb.cc.o: ../protoc/message.pb.cc \
 
 /usr/include/boost/asio/detail/blocking_executor_op.hpp:
 
+/home/itxt/TalkHub/protoc/message.pb.h:
+
 /usr/include/boost/asio/impl/thread_pool.hpp:
 
 /usr/include/boost/asio/thread_pool.hpp:
@@ -7195,6 +7200,8 @@ CMakeFiles/StatusServer.dir/protoc/message.pb.cc.o: ../protoc/message.pb.cc \
 /usr/local/include/grpcpp/impl/rpc_method.h:
 
 /usr/include/boost/predef/os/bsd/net.h:
+
+/home/itxt/TalkHub/protoc/message.grpc.pb.cc:
 
 /usr/local/include/grpc/event_engine/slice.h:
 
@@ -8448,8 +8455,6 @@ CMakeFiles/StatusServer.dir/protoc/message.pb.cc.o: ../protoc/message.pb.cc \
 
 /usr/include/c++/11/ctime:
 
-../protoc/message.pb.cc:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
 
 /usr/include/c++/11/limits:
@@ -8853,8 +8858,6 @@ CMakeFiles/StatusServer.dir/protoc/message.pb.cc.o: ../protoc/message.pb.cc \
 /usr/include/c++/11/bits/stl_tree.h:
 
 /usr/include/boost/mpl/aux_/has_begin.hpp:
-
-../protoc/message.grpc.pb.h:
 
 /usr/include/boost/preprocessor/tuple/detail/is_single_return.hpp:
 
@@ -9464,9 +9467,9 @@ CMakeFiles/StatusServer.dir/protoc/message.pb.cc.o: ../protoc/message.pb.cc \
 
 /usr/include/boost/asio/prefer.hpp:
 
-../protoc/message.pb.h:
-
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
+
+/home/itxt/TalkHub/protoc/message.pb.cc:
 
 /usr/local/include/grpc/byte_buffer.h:
 
@@ -10817,8 +10820,6 @@ CMakeFiles/StatusServer.dir/protoc/message.pb.cc.o: ../protoc/message.pb.cc \
 /usr/include/boost/type_traits/is_empty.hpp:
 
 /usr/include/boost/asio/traits/set_done_member.hpp:
-
-../protoc/message.grpc.pb.cc:
 
 /usr/include/boost/asio/time_traits.hpp:
 
