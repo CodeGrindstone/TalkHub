@@ -6,6 +6,7 @@
 #include <QDir>
 #include <QDebug>
 #include <QSettings>
+#include <windows.h>
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
@@ -29,5 +30,6 @@ int main(int argc, char *argv[])
     }else{
         qDebug("Open failed");
     }
+
     return a.exec();
 }
